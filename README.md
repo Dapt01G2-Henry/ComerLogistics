@@ -1,2 +1,2 @@
 "# ComerLogistics" 
-<img src="" style="width: 50%" />
+<img src="/img/LOGO.png" style="width: 50%" />
