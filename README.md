@@ -16,12 +16,25 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 ## 🚀*. Propuesta y Objetivos de Data Vision Strategy* :
 <img src="img/logo_nosotros.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
 
+## 🎯*Objetivos*
+
 👉Predecir y Gestionar Costos: Utilizar análisis predictivo      para anticipar variaciones en los precios de compra y ajustar las estrategias de adquisición.
 
 👉Optimizar las Ventas: Analizar datos históricos para identificar tendencias y optimizar la estrategia de ventas.
 
 👉Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma para facilitar el acceso y la toma de decisiones.
 
+## ✅*Resultados Esperados*
+1.	Reducción de Costos Operativos:
+○	Optimización del inventario y planificación de compras.
+2.	Incremento en la Eficiencia Operativa:
+○	Automatización de procesos y visibilidad centralizada de datos.
+3.	Mejora en la Toma de Decisiones:
+○	Análisis predictivo e identificación de tendencias.
+4.	Incremento en Ventas y Rentabilidad:
+○	Optimización de ventas y mejora en la relación con proveedores.
+
+## ✅*Impacto en el Sector*
 
 ## 🧰 *. Dataset* : 
 
