@@ -11,9 +11,9 @@
 ## 🔨 *. Descripcion de Problema* : 
 🕵️‍♂️🕵️‍♂️🕵️‍♂️ ComerLogistica enfrenta algunos desafíos relacionados con la gestión de inventarios, costos de compras y ventas. En este contexto, la eficiencia operativa y la toma de decisiones informadas son cruciales para el éxito.
 
-Por esta razón, ComerLogistica ha contratado a Datavision Strategy📈, una consultora especializada en servicios de análisis de datos, para facilitar la toma de decisiones informadas en las empresas.
+Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una consultora especializada en servicios de análisis de datos, para facilitar la toma de decisiones informadas en las empresas.
 
-## 🚀*. Propuesta y Objetivos de Datavision Strategy* :
+## 🚀*. Propuesta y Objetivos de Data Vision Strategy* :
 <img src="img/logo_nosotros.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
 
 👉Predecir y Gestionar Costos: Utilizar análisis predictivo      para anticipar variaciones en los precios de compra y ajustar las estrategias de adquisición.
