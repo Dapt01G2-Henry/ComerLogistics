@@ -12,7 +12,8 @@
 
 ## 🧰 *. Dataset : *
 
-- [Dataset](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
+- <a href="https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study" target="_blank">Dataset</a>
+
 
 
 
