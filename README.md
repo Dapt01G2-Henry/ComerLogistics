@@ -26,8 +26,11 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 
 ## ✅*Resultados Esperados*
 ⭕Reducción de Costos Operativos: Optimización del inventario y planificación de compras.
+
 ⭕Incremento en la Eficiencia Operativa: Automatización de procesos y visibilidad centralizada de datos.
+
 ⭕Mejora en la Toma de Decisiones: Análisis predictivo e identificación de tendencias.
+
 ⭕Incremento en Ventas y Rentabilidad: Optimización de ventas y mejora en la relación con proveedores.
 
 ## ✅*Impacto en el Sector*
