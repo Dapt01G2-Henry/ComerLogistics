@@ -12,6 +12,12 @@
 
 ## 🧰 *. Dataset : *
 
+- [Dataset](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
+
+
+
+## 👨👩 *. Integrantes : *
+
 
 
 
