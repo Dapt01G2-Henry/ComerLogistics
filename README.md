@@ -13,7 +13,7 @@
 
 Por esta razón, ComerLogistica ha contratado a Datavision Strategy📈, una consultora especializada en servicios de análisis de datos, para facilitar la toma de decisiones informadas en las empresas.
 
-🎯 Los objetivos propuestos por Datavision Strategy son:
+## 🎯*. Propuesta y Objetivos de Datavision Strategy* :
 
 👉Predecir y Gestionar Costos: Utilizar análisis predictivo      para anticipar variaciones en los precios de compra y ajustar las estrategias de adquisición.
 
