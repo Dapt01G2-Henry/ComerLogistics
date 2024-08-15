@@ -25,15 +25,20 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 👉Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma para facilitar el acceso y la toma de decisiones.
 
 ## ✅*Resultados Esperados*
-⭕Reducción de Costos Operativos: Optimización del inventario y planificación de compras.
+⭕**Reducción de Costos Operativos**: Optimización del inventario y planificación de compras.
 
-⭕Incremento en la Eficiencia Operativa: Automatización de procesos y visibilidad centralizada de datos.
+⭕**Incremento en la Eficiencia Operativa**: Automatización de procesos y visibilidad centralizada de datos.
 
-⭕Mejora en la Toma de Decisiones: Análisis predictivo e identificación de tendencias.
+⭕**Mejora en la Toma de Decisiones**: Análisis predictivo e identificación de tendencias.
 
-⭕Incremento en Ventas y Rentabilidad: Optimización de ventas y mejora en la relación con proveedores.
+⭕**Incremento en Ventas y Rentabilidad**: Optimización de ventas y mejora en la relación con proveedores.
 
 ## ✅*Impacto en el Sector*
+⭕**Mayor Competitividad**: Mejor posicionamiento estratégico e innovación en la gestión de inventarios.
+
+⭕**Sostenibilidad y Responsabilidad**: Reducción de desperdicios y optimización de recursos.
+
+⭕**Mejora en la Toma de Decisiones Estratégicas**: Datos como activo estratégico y capacidad de respuesta rápida.
 
 
 ## 🧰 *. Dataset* : 
