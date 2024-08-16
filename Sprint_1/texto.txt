@@ -1,2 +1,8 @@
 Iniciamos la limpieza de datos repartiendonos los archivos del data set
 Cada uno debe de limpiar el archivo(s) que le correspondio
+Daniela:        2017PurchasePricesDec
+Carlos F:       BegInvFINAL12312016
+Carlos F:       EndInvFINAL12312016
+Hernan:         InvoicePurchases12312016
+Ruben:          PurchasesFINAL12312016
+Marcelo:        SalesFINAL12312016
