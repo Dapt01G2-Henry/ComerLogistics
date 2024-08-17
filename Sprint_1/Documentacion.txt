@@ -11,3 +11,6 @@ Carlos F:       EndInvFINAL12312016
 Hernan:         InvoicePurchases12312016
 Ruben:          PurchasesFINAL12312016
 Marcelo:        SalesFINAL12312016
+
+Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
+equipo las correcciones y mejoras a realizar.
