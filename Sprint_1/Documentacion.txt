@@ -1,0 +1,16 @@
+Iniciamos la limpieza de datos repartiendonos los archivos del data set.
+
+Cada uno debe de limpiar el archivo(s) que le correspondio, utilizando Python y subir el query del codigo utilizado.
+Para eso desarrollara el archivo en Visual, generando un archivo ipynb.
+
+Estos son los nombres del responsable y el archivo correspondiente:
+
+Daniela:        2017PurchasePricesDec
+Carlos F:       BegInvFINAL12312016
+Carlos F:       EndInvFINAL12312016
+Hernan:         InvoicePurchases12312016
+Ruben:          PurchasesFINAL12312016
+Marcelo:        SalesFINAL12312016
+
+Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
+equipo las correcciones y mejoras a realizar.
