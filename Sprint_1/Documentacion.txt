@@ -14,3 +14,6 @@ Marcelo:        SalesFINAL12312016
 
 Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
 equipo las correcciones y mejoras a realizar.
+
+Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
+
