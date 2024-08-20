@@ -89,7 +89,7 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%233A4E8C.svg?style=for-the-badge&logo=matplotlib&logoColor=white) 
 ![Seaborn](https://img.shields.io/badge/Seaborn-%2305A3D6.svg?style=for-the-badge&logo=Seaborn&logoColor=white) 
 ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-FCA121?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-FCA121?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![pyodbc](https://img.shields.io/badge/pyodbc-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) 
