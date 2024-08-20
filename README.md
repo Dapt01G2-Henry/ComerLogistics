@@ -1,4 +1,4 @@
-# 🚀Proyecto Final Grupal (Bootcamp Henry / Data Analytics) 🚀
+# 🚀Proyecto Final Grupal (Henry / Data Analytics) 🚀
 
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
