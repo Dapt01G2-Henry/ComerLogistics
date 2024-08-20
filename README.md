@@ -95,24 +95,7 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 
 </p>
 
-## Linkedin Desarrolladores: 
 
-
-**Data Analyst:** 
-
-
-**Data Analyst:** 
-
-
-**Data Analyst:** 
-
-
-**Data Analyst:** 
-
-
-**Data Analyst:** <a href="https://www.linkedin.com/in/daniela-maria-forti-ruiz/" target="_blank">
-    <img src="https://ruta-de-tu-foto.jpg" alt="Daniela Maria Forti Ruiz - LinkedIn" width="150" height="150" style="border-radius: 50%;">
-</a>
 
 
 
