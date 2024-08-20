@@ -1,5 +1,7 @@
 # 🚀Proyecto Final Grupal (Henry / Data Analytics) 🚀
 
+# <h1 align=center> ![ia](https://emoji.slack-edge.com/TPRS7H4PN/henry-pm/4658c1bc769b53ae.png) </h1>
+
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
 <img src="img/data_analytics.avif" alt="Header" width="100%" style="max-width: 100%; height: auto;">
