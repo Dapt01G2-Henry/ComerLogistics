@@ -14,6 +14,7 @@
 
 
 ## 📋 *. Industria y contexto del caso de negocio a desarrollar*: 
+
 ## *Empresa:* *ComerLogistics*
 
 <img src="img/logo.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
@@ -21,11 +22,13 @@
 🥂🍻🍹 “ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas. 
 
 ## 🔨 *. Descripcion de Problema* : 
+
 🕵️‍♂️🕵️‍♂️🕵️‍♂️ ComerLogistica enfrenta algunos desafíos relacionados con la gestión de inventarios, costos de compras y ventas. En este contexto, la eficiencia operativa y la toma de decisiones informadas son cruciales para el éxito.
 
 Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una consultora especializada en servicios de análisis de datos, para facilitar la toma de decisiones informadas en las empresas.
 
 ## 🚀*. Propuesta y Objetivos de Data Vision Strategy* :
+
 <img src="img/logo_nosotros.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
 
 ## 🎯*Objetivos* 🎯
@@ -40,6 +43,7 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 .
 
 ## ✅*Resultados Esperados*
+
 ⭕**Reducción de Costos Operativos**: Optimización del inventario y planificación de compras.
 
 ⭕**Incremento en la Eficiencia Operativa**: Automatización de procesos y visibilidad centralizada de datos.
@@ -48,7 +52,9 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 
 ⭕**Incremento en Ventas y Rentabilidad**: Optimización de ventas y mejora en la relación con proveedores.
 
+
 ## ✅*Impacto en el Sector*
+
 ⭕**Mayor Competitividad**: Mejor posicionamiento estratégico e innovación en la gestión de inventarios.
 
 ⭕**Sostenibilidad y Responsabilidad**: Reducción de desperdicios y optimización de recursos.
