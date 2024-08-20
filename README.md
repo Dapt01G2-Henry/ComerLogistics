@@ -5,11 +5,11 @@
 
 ## Integrantes del equipo: 
 
-* ** Dussan Rivera, Carlos Fernando - Data Analytics**
-* ** Forti Ruiz, Daniela Maria - Data Analytics**
-* ** López, Marcelo Fabián - Data Analytics**
-* ** Pared, Ruben Hernan - Data Analytics**
-* ** Roman, Hernan Rufino - Data Analytics**
+* **Dussan Rivera, Carlos Fernando - Data Analytics**
+* **Forti Ruiz, Daniela Maria - Data Analytics**
+* **López, Marcelo Fabián - Data Analytics**
+* **Pared, Ruben Hernan - Data Analytics**
+* **Roman, Hernan Rufino - Data Analytics**
 
 
 ## 📋 *. Industria y contexto del caso de negocio a desarrollar*: 
