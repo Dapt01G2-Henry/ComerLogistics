@@ -3,6 +3,14 @@
 <img src="img/data_analytics.avif" alt="Header" width="100%" style="max-width: 100%; height: auto;">
 
 
+## Integrantes del equipo: 
+
+* ** Dussan Rivera, Carlos Fernando - Data Analytics**
+* ** Forti Ruiz, Daniela Maria - Data Analytics**
+* ** López, Marcelo Fabián - Data Analytics**
+* ** Pared, Ruben Hernan - Data Analytics**
+* ** Roman, Hernan Rufino - Data Analytics**
+
 
 ## 📋 *. Industria y contexto del caso de negocio a desarrollar*: 
 <img src="img/logo.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
