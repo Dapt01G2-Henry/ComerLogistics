@@ -27,13 +27,13 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 
 ## 🎯*Objetivos* 🎯
 
-👉Mejorar la eficiencia en la gestión de inventarios.
-👉Minimizar los costos operativos.
-👉Optimizar el ciclo de rotación de inventarios.
-👉Detectar patrones y tendencias en la venta de productos.
-👉Ofrecer insights clave para la toma de decisiones estratégicas.
-👉 Predecir y Gestionar Costos
-👉Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma
+👉 * **Mejorar la eficiencia en la gestión de inventarios.**
+👉 * **Minimizar los costos operativos.**
+👉 * **Optimizar el ciclo de rotación de inventarios.**
+👉 * **Detectar patrones y tendencias en la venta de productos.**
+👉 * **Ofrecer insights clave para la toma de decisiones estratégicas.**
+👉 * **Predecir y Gestionar Costos**
+👉* **Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma**
 .
 
 ## ✅*Resultados Esperados*
