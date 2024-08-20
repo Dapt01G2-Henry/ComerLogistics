@@ -53,18 +53,19 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 ⭕**Mejora en la Toma de Decisiones Estratégicas**: Datos como activo estratégico y capacidad de respuesta rápida.
 
 
-## 🧰 *. Dataset* : 
+## 🧰 *. Fuente de los Datos* : 
 
-- [Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
+**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
+**Detalles del Dataset**: 
 
+* **Inventario inicial**
+* * **Inventario final**
+* **Producto**
+* **Compra**
+* **Detalle de comprea**
+* **Ventas**
 
-## 👨👩 *. Integrantes* : 
-
-1.	Dussan Rivera, Carlos Fernando  
-2.	Forti Ruiz, Daniela Maria 
-3.	López, Marcelo Fabián 
-4.	Pared, Ruben Hernan 
-5.	Roman, Hernan Rufino 
+ 
 
 
 
