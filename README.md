@@ -64,11 +64,11 @@ Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una co
 
 ## 🧰 *. Fuente de los Datos* : 
 
-**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
-**Detalles del Dataset**: 
+*📋**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study) 📋
+*📋**Detalles del Dataset**: 📋
 
 * **Inventario inicial**
-* * **Inventario final**
+*  **Inventario final**
 * **Producto**
 * **Compra**
 * **Detalle de comprea**
