@@ -1,4 +1,4 @@
-#  **<p align="center">Proyecto Grupal Final de Data Analytics</p>** 
+#  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
 <img src="img/data_analytics.avif" alt="Header" width="100%" style="max-width: 100%; height: auto;">
 
