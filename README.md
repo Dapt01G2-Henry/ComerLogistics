@@ -13,9 +13,9 @@
 * **Roman, Hernan Rufino - Data Analytics**
 
 
-##  ✅📋 *. Industria y contexto del caso de negocio a desarrollar*: 
+##  ✅📋 *Industria y contexto del caso de negocio a desarrollar*: 
 
-##  ✅*Empresa:* *ComerLogistics*
+##  ✅ *Empresa:* *ComerLogistics*
 
 <img src="img/logo.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
 
