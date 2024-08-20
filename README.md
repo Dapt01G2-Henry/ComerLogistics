@@ -14,7 +14,7 @@
 
 ## 📋 *. Industria y contexto del caso de negocio a desarrollar*: 
 <img src="img/logo.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
-🥂🍻🍹 “ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas. 
+🥂🍻🍹 **“ComerLogistics”** es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas. 
 
 ## 🔨 *. Descripcion de Problema* : 
 🕵️‍♂️🕵️‍♂️🕵️‍♂️ ComerLogistica enfrenta algunos desafíos relacionados con la gestión de inventarios, costos de compras y ventas. En este contexto, la eficiencia operativa y la toma de decisiones informadas son cruciales para el éxito.
