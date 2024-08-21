@@ -42,13 +42,13 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ##  ✅🎯*Objetivos* 🎯
 
-* **Mejorar la eficiencia en la gestión de inventarios.**
-* **Minimizar los costos operativos.**
-* **Optimizar el ciclo de rotación de inventarios.**
-* **Detectar patrones y tendencias en la venta de productos.**
-* **Ofrecer insights clave para la toma de decisiones estratégicas.**
-* **Predecir y Gestionar Costos**
-* **Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma**
+⭕ **Mejorar la eficiencia en la gestión de inventarios.**
+⭕ **Minimizar los costos operativos.**
+⭕ **Optimizar el ciclo de rotación de inventarios.**
+⭕ **Detectar patrones y tendencias en la venta de productos.**
+⭕ **Ofrecer insights clave para la toma de decisiones estratégicas.**
+⭕ **Predecir y Gestionar Costos**
+⭕ **Centralizar la Información: Integrar los diferentes conjuntos de datos en una única plataforma**
 .
 
 ## ✅*Resultados Esperados*🚀
@@ -73,9 +73,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## ✅🧰 *Fuente de los Datos* : 🧰✅
 
-*📋**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study) 📋
+⭕ 📋**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study) 📋
 
-*📋**Detalles del Dataset**: 📋
+⭕ 📋**Detalles del Dataset**: 📋
 
 * **Inventario inicial**
 *  **Inventario final**
@@ -86,7 +86,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 
 
-## Herramientas Tecnológicas: 
+## ✅ Herramientas Tecnológicas: 
 
 ![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
