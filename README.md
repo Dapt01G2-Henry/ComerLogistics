@@ -23,7 +23,7 @@
 
 🥂🍻🍹 **“ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas.** 🥂🍻🍹
 
-##  ✅🔨 * Resumen descriptivo del Proyecto* : 🔨
+##  ✅🔨 * Resumen descriptivo del Proyecto:* 🔨
 
 
 * 🚀 **Desafío:**  🕵️‍♂🕵
@@ -83,6 +83,15 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Compra**
 * **Detalle de comprea**
 * **Ventas**
+
+## Detalles del repositorio:   (AGREGAR TODO LO QUE FALTA ! : 
+⭕ **SRPINT 1**
+* Conexion SQL/PYTHON
+* DataSet
+* EDA y ETL
+  
+⭕ **SPRINT 2**
+* ComerLogistics.pbix
 
 
 
