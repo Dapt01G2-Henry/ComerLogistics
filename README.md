@@ -86,8 +86,10 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Detalle de comprea**
 * **Ventas**
 
-## Detalles del repositorio:   (AGREGAR TODO LO QUE FALTA ! : 
+## Detalles del repositorio:  
+
 ⭕ **SRPINT 1**
+
 * Conexion SQL/PYTHON
 * DataSet
 * Diagrama_Entidad_Relacion
@@ -95,6 +97,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
   
 ⭕ **SPRINT 2**
 * ComerLogistics.pbix
+  
+⭕img
+* README
 
 
 
