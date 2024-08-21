@@ -4,7 +4,7 @@
 
 <img src="img/data_analytics.avif" alt="Header" width="100%" style="max-width: 100%; height: auto;">
 
-##  ✅CONSULTORA: 📈 Data Vision Strategy 📈
+##  ✅CONSULTORA: 📈 **Data Vision Strategy** 📈
 
 ##  ✅Integrantes del equipo: 
 
