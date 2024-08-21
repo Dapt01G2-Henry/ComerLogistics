@@ -90,6 +90,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ⭕ **SRPINT 1**
 * Conexion SQL/PYTHON
 * DataSet
+* Diagrama_Entidad_Relacion
 * EDA y ETL
   
 ⭕ **SPRINT 2**
