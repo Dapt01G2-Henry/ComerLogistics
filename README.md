@@ -23,7 +23,7 @@
 
 🥂🍻🍹 **“ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas.** 🥂🍻🍹
 
-##  ✅🔨 *. Descripcion de Proyecto* : 🔨
+##  ✅🔨 *. Resumen descriptivo del Proyecto* : 🔨
 
 
 * 🚀 **Desafío:**  🕵️‍♂🕵
@@ -36,7 +36,7 @@
 Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de inventarios, sino que también reduciran  significativamente los costos operativos. Para que asi **ComerLogistics** se convierta a corto plazo en una empresa más ágil y rentable.
 
 
-##  ✅🚀*. Propuesta y Objetivos de Data Vision Strategy* :🚀
+##  ✅🚀*. PROPUESTA y OBJETIVOS de Data Vision Strategy* :🚀
 
 <img src="img/logo_nosotros.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
 
