@@ -23,11 +23,18 @@
 
 🥂🍻🍹 **“ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas.** 🥂🍻🍹
 
-##  ✅🔨 *. Descripcion de Problema* : 🔨
+##  ✅🔨 *. Descripcion de Proyecto* : 🔨
 
-🕵️‍♂️🕵️‍♂️🕵️‍♂️ ComerLogistica enfrenta algunos desafíos relacionados con la gestión de inventarios, costos de compras y ventas. En este contexto, la eficiencia operativa y la toma de decisiones informadas son cruciales para el éxito.
 
-Por esta razón, ComerLogistica ha contratado a Data Vision Strategy📈, una consultora especializada en servicios de análisis de datos, para facilitar la toma de decisiones informadas en las empresas.
+* 🕵️‍♂️ **Desafío**  🕵️‍♂🕵
+**ComerLogistics**, una empresa líder en el sector de bebidas, se enfrentaba a desafíos críticos relacionados con la gestión de inventarios, los costos de compras y ventas. La eficiencia operativa y la toma de decisiones informadas son esenciales para su éxito continuo.
+
+* **Solución**
+**Data Vision Strategy**, una **consultora especializada** en análisis de datos, fue contratada para abordar estos desafíos. A través de un enfoque meticuloso, identificamos áreas clave de mejora en la gestión de inventarios. Utilizamos técnicas avanzadas de análisis de datos para diseñar soluciones personalizadas.
+
+* **Resultados**
+Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de inventarios, sino que también reduciran  significativamente los costos operativos. Para que asi **ComerLogistics** se convierta a corto plazo en una empresa más ágil y rentable.
+
 
 ##  ✅🚀*. Propuesta y Objetivos de Data Vision Strategy* :🚀
 
