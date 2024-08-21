@@ -26,13 +26,13 @@
 ##  ✅🔨 *. Descripcion de Proyecto* : 🔨
 
 
-* 🕵️‍♂️ **Desafío:**  🕵️‍♂🕵
+* 🚀 **Desafío:**  🕵️‍♂🕵
 **ComerLogistics**, una empresa líder en el sector de bebidas, se enfrentaba a desafíos críticos relacionados con la gestión de inventarios, los costos de compras y ventas. La eficiencia operativa y la toma de decisiones informadas son esenciales para su éxito continuo.
 
-* **Solución:**
+* 🚀**Solución:** 🕵️‍♂🕵
 **Data Vision Strategy**, una **consultora especializada** en análisis de datos, fue contratada para abordar estos desafíos. A través de un enfoque meticuloso, identificamos áreas clave de mejora en la gestión de inventarios. Utilizamos técnicas avanzadas de análisis de datos para diseñar soluciones personalizadas.
 
-* **Resultados esperados:**
+* 🚀**Resultados esperados:** 🕵️‍♂🕵
 Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de inventarios, sino que también reduciran  significativamente los costos operativos. Para que asi **ComerLogistics** se convierta a corto plazo en una empresa más ágil y rentable.
 
 
