@@ -3,6 +3,7 @@
 # 🚀Proyecto Final Grupal (Henry / Data Analytics) 🚀
 
 >>>>>>> 74b582fabbfc18980bc59fea5dbb3725adbd92ce
+>>>>>>> 
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
 <img src="img/data_analytics.avif" alt="Header" width="100%" style="max-width: 100%; height: auto;">
