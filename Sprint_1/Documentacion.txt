@@ -17,3 +17,51 @@ equipo las correcciones y mejoras a realizar.
 
 Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
 
+Documentación del Análisis Exploratorio de Datos (EDA) y Proceso ETL para los Archivos BegInvFinal12312016.csv y EndInvFinal12312016.csv
+1. Preparación del Entorno
+1.	Instalación y carga de librerías:
+o	Instalé la librería seaborn utilizando pip para facilitar la visualización de datos.
+o	Importé las librerías fundamentales para el análisis y visualización de datos: pandas, numpy, matplotlib.pyplot, seaborn, y os.
+o	Verifiqué las versiones de cada una de estas librerías para asegurar la compatibilidad y correcto funcionamiento del entorno de trabajo.
+2.	Establecimiento del estado de dependencia:
+o	Guardé el estado actual de las dependencias en un archivo requirementscfdr.txt utilizando pip freeze. Esto permitirá replicar el entorno en el futuro, garantizando que se utilicen las mismas versiones de las librerías.
+2. Carga y Exploración Inicial de los Datos
+1.	Carga de los archivos CSV:
+o	Cargué los archivos BegInvFinal12312016.csv y EndInvFinal12312016.csv en DataFrames llamados df_BegInvFINAL y df_EndInvFINAL, respectivamente.
+o	Verifiqué las primeras filas de ambos DataFrames para asegurarme de que los datos se habían cargado correctamente y correspondían a las expectativas iniciales.
+2.	Verificación de la estructura de los DataFrames:
+o	Utilicé los métodos shape e info para entender la estructura de los DataFrames, incluyendo el número de registros, columnas y tipos de datos.
+o	Identifiqué que df_BegInvFINAL no contenía valores nulos, mientras que df_EndInvFINAL presentaba valores nulos en la columna City.
+3. Análisis y Limpieza de Datos
+1.	Determinación de la integridad de la relación Store-City:
+o	Realicé una agrupación por Store y City en df_BegInvFINAL para verificar si cada tienda (Store) estaba asociada a una única ciudad (City). Esto confirmó que cada tienda está efectivamente en una sola ciudad, lo que indica que se trata de tiendas físicas individuales y no de cadenas con múltiples ubicaciones.
+2.	Manejo de valores nulos en City:
+o	Utilicé la agrupación anterior para identificar que la tienda 46 era la única con valores nulos en City en df_EndInvFINAL.
+o	Utilicé el DataFrame StoreAndCity (sin valores nulos) para identificar que la tienda 46 estaba ubicada en la ciudad TYWARDREATH, y realicé el reemplazo correspondiente en df_EndInvFINAL.
+o	Verifiqué que no quedaran valores nulos en df_EndInvFINAL, asegurando la integridad de los datos.
+3.	Conversión de columnas de fecha:
+o	Convertí las columnas startDate y endDate a un formato de fecha (datetime) en ambos DataFrames para facilitar el análisis temporal y asegurar la consistencia en los tipos de datos.
+4.	Verificación de unicidad en identificadores:
+o	Verifiqué que la columna InventoryId contenía valores únicos en ambos DataFrames, lo que garantiza que no existen duplicados en los identificadores de inventario, una condición esencial para la integridad del análisis.
+5.	Análisis de variabilidad en Brand y Store:
+o	Analicé la variabilidad en las columnas Brand y Store, y noté que en el inventario inicial había menos variedad de productos (Brand) en comparación con el inventario final.
+o	Identifiqué que el inventario final contenía una tienda adicional (la tienda 81), sugiriendo la apertura de una nueva tienda o la incorporación tardía de inventario.
+4. Transformación y Análisis Avanzado
+1.	Determinación de nuevas tiendas y ciudades:
+o	Comparé los valores únicos de Store y City entre ambos DataFrames para identificar diferencias.
+o	Detecté que la ciudad de PEMBROKE y la tienda 81 aparecían en el inventario final pero no en el inicial, lo que podría indicar la expansión de operaciones.
+2.	Creación de la columna TotalValue:
+o	Añadí una nueva columna TotalValue en ambos DataFrames, calculada como el producto de las unidades disponibles (onHand) y el precio de venta (Price), lo cual permitió cuantificar el valor total del inventario en términos monetarios.
+3.	Análisis comparativo de valor de inventario por ciudad:
+o	Agrupé los datos por City y sumé TotalValue para identificar las 10 principales ciudades tanto en el inventario inicial como en el final.
+o	Generé gráficos de barras para comparar visualmente las ciudades con mayor valor de inventario en ambos periodos.
+4.	Análisis comparativo de valor de inventario por producto (Description):
+o	Realicé un análisis similar para las descripciones de productos (Description), comparando el valor total de los productos entre el inventario inicial y final.
+o	Filtré y grafiqué las 10 descripciones de productos con mayor valor en el inventario final, comparándolas con el inventario inicial.
+5. Renombrado de Columnas y Almacenamiento de Resultados
+1.	Renombrado de columnas a un formato más descriptivo:
+o	Renombré las columnas de ambos DataFrames para que los nombres fueran más descriptivos y estuvieran en español, facilitando así la comprensión y manejo posterior de los datos.
+2.	Almacenamiento de los resultados finales:
+o	Guardé los DataFrames transformados en archivos CSV, Tabla_InventarioInicial.csv y Tabla_InventarioFinal.csv, asegurando que los resultados del análisis y limpieza estuvieran disponibles para futuros análisis o revisiones.
+Conclusión
+Este proceso de EDA y ETL permitió no solo la limpieza y preparación de los datos, sino también la identificación de cambios clave en la operación de tiendas y la distribución de productos. La creación de visualizaciones y la cuantificación del valor del inventario proporcionaron una visión clara y detallada del estado inicial y final del inventario, apoyando decisiones informadas para la gestión y análisis futuro. Los resultados fueron documentados y almacenados de manera que puedan ser fácilmente reutilizados o extendidos en análisis posteriores.
