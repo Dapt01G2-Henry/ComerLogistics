@@ -94,6 +94,8 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## Detalles del repositorio:  
 
+⭕ **DiagramaEntidadRelacion**
+  
 ⭕ **SPRINT 1**
 
 * [Conexion SQL/PYTHON](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python)
@@ -104,9 +106,14 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ⭕ **SPRINT 2**
 
 * [ComerLogistics.pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
+
+⭕ * **Web_Scraping**
   
-⭕img
-* README
+⭕* **Imagenes**
+
+⭕ * **README.md**
+
+
 
 
 
