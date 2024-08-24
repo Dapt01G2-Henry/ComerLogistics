@@ -8,13 +8,13 @@
 
 ##  ✅CONSULTORA: 📈 **Data Vision Strategy** 📈
 
-##  ✅Integrantes del equipo: 
+## ✅ Integrantes del equipo:
 
-* **Dussan Rivera, Carlos Fernando - Data Analytics**
-* **Forti Ruiz, Daniela Maria - Data Analytics**
-* **López, Marcelo Fabián - Data Analytics**
-* **Pared, Ruben Hernan - Data Analytics**
-* **Roman, Hernan Rufino - Data Analytics**
+* [![Dussan Rivera, Carlos Fernando](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Dussan%20Rivera%20Carlos%20Fernando.png)](https://www.linkedin.com/in/carlosfdussan/) **Dussan Rivera, Carlos Fernando - Data Analytics**
+* [![Forti Ruiz, Daniela Maria](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Forti%20Ruiz%20Daniela%20Maria.png)](https://www.linkedin.com/in/daniela-mar%C3%ADa-forti-ruiz-24a51660/) **Forti Ruiz, Daniela Maria - Data Analytics**
+* [![López, Marcelo Fabián](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/L%C3%B3pez%20Marcelo%20Fabi%C3%A1n.png)](https://www.linkedin.com/in/marceloflopez/) **López, Marcelo Fabián - Data Analytics**
+* [![Pared, Ruben Hernan](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Pared%20Ruben%20Hernan.png)](https://www.linkedin.com/in/hernanpared/) **Pared, Ruben Hernan - Data Analytics**
+* [![Roman, Hernan Rufino](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Roman%20Hernan%20Rufino.png)](https://www.linkedin.com/in/hernan-roman-r/) **Roman, Hernan Rufino - Data Analytics**
 
 
 ##  📋 *Industria y contexto del caso de negocio a desarrollar:*📋
