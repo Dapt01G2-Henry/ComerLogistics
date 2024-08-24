@@ -10,10 +10,6 @@
 
 ## ✅ Integrantes del equipo:
 
-##  ✅Integrantes del equipo: 
-
-## ✅ Integrantes del equipo: 
-
 * 👨‍💻**Dussan Rivera, Carlos Fernando - Data Analytics** <a href="https://www.linkedin.com/in/carlosfdussan/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Dussan%20Rivera%20Carlos%20Fernando.png" alt="Dussan Rivera, Carlos Fernando" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
 
 * 👨‍💻**Forti Ruiz, Daniela Maria - Data Analytics** <a href="https://www.linkedin.com/in/daniela-mar%C3%ADa-forti-ruiz-24a51660/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Forti%20Ruiz%20Daniela%20Maria.png" alt="Forti Ruiz, Daniela Maria" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
@@ -23,6 +19,7 @@
 * 👨‍💻**Pared, Ruben Hernan - Data Analytics** <a href="https://www.linkedin.com/in/hernanpared/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Pared%20Ruben%20Hernan.png" alt="Pared, Ruben Hernan" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
 
 * 👨‍💻**Roman, Hernan Rufino - Data Analytics** <a href="https://www.linkedin.com/in/hernan-roman-r/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Roman%20Hernan%20Rufino.png" alt="Roman, Hernan Rufino" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
+
 
 
 
