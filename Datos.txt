@@ -15,7 +15,7 @@ clave git
 Dapt01G2
 
 SQL Servidor
-190.172.70.140,1433
+190.172.67.194,1433
 
 SQL Server
 Usuarios
