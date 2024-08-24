@@ -98,6 +98,12 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 <img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\Trello_HerramientaGestion\trello.png" width="75%">
 </p>
 
+## Diagrama Entidad Relacion:
+
+<p align='center'>
+<img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\DiagramaEntidadRelacion\DER_InventorioBD_drawio(1).png" width="75%">
+</p>
+
 ## Detalles del repositorio:  
 
 ⭕ **DiagramaEntidadRelacion**
