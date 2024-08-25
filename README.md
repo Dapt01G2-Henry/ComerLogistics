@@ -106,7 +106,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ## ✅ Trabajamos siguiendo el **CRONOGRAMA EN TRELLO **:
 
 
-[![Tablero de Trello](img/trello_preview.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
+[![Tablero de Trello](C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\img\trello.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
 
 <p align='center'>
 <img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\Trello_HerramientaGestion\trello.png" width="75%">
