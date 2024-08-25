@@ -23,12 +23,20 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## ✅ Video Introductorio:
 =======
 ## Video de YouTube:
 
 * <iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 >>>>>>> b494ef3 (version 2)
+=======
+## ✅ Video Introductorio :
+
+<a href="[https://www.youtube.com/watch?v=T6dHl5rLlYY](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)" target="_blank">
+  <img src="https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg" alt="Portada del Video" style="max-width:100%; height:auto;">
+</a>
+>>>>>>> bc051e231a2f4f1c641907f59243f57ddebd3152
 
 [![Mira el siguiente video](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=2s)
 
@@ -103,14 +111,15 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Detalle de comprea**
 * **Ventas**
 
+<<<<<<< HEAD
 ## ✅ Trabajamos siguiendo el **CRONOGRAMA EN TRELLO **:
 
+=======
+## ✅Trabajamos siguiendo el Cronograma de Trello:
+>>>>>>> bc051e231a2f4f1c641907f59243f57ddebd3152
 
 [![Tablero de Trello](C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\img\trello.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
 
-<p align='center'>
-<img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\Trello_HerramientaGestion\trello.png" width="75%">
-</p>
 
 ## Diagrama Entidad Relacion:
 
