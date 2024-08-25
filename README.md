@@ -111,7 +111,12 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## ✅**Trabajamos siguiendo el Cronograma de Trello:**
 
-[![Tablero de Trello](img/trello.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
+<p align="center">
+  <a href="https://trello.com/b/ojPp3lEU/dapt01g2-henry">
+    <img src="img/trello.png" alt="Tablero de Trello" width="200">
+  </a>
+</p>
+
 
 
 ## ✅ **Diagrama Entidad Relacion:**
