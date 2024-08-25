@@ -89,9 +89,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ⭕**Mejora en la Toma de Decisiones Estratégicas**: Datos como activo estratégico y capacidad de respuesta rápida.
 
 
-## ✅🧰 *Fuente de los Datos* : 🧰✅
+## ✅🧰 **Fuente de los Datos** : 🧰✅
 
-⭕ 📋**Fuente de Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study) 📋
+⭕ 📋**Fuente Origen**: Kaggle:[Bases de Datos](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study) 📋
 
 ⭕ 📋**Detalles del Dataset**: 📋
 
@@ -103,18 +103,16 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Ventas**
 
 
-## ✅Trabajamos siguiendo el Cronograma de Trello:
+## ✅**Trabajamos siguiendo el Cronograma de Trello:**
 
 [![Tablero de Trello](img/trello.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
 
 
-## Diagrama Entidad Relacion:
+## ✅ **Diagrama Entidad Relacion:**
 ![Diagrama Entidad Relacion](DiagramaEntidadRelacion/diagrama%20ER.png)
 
 
-
-
-## Detalles del repositorio:  
+## ✅ **Detalles del repositorio:**
 
 ⭕ **DiagramaEntidadRelacion**
   
