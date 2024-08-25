@@ -139,7 +139,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * [Diagrama_Entidad_Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Diagrama_Entidad_Relacion)
 * [EDA y ETL](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/EDA%20y%20ETL)
 
-⭕ **SPRINT 2**
+⭕[**SPRINT 2**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
 
 * [ComerLogistics.pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
 
