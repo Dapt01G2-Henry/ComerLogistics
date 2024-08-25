@@ -120,9 +120,8 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 
 ## ✅ **Diagrama Entidad Relacion:**
-<p align="center">
-  ![Diagrama Entidad Relacion](DiagramaEntidadRelacion/diagrama%20ER.png)
-</p>
+
+![Diagrama Entidad Relacion](DiagramaEntidadRelacion/diagrama%20ER.png)
 
 
 
