@@ -23,7 +23,10 @@
 
 ## Video de YouTube:
 
-[![VIDEO INTRODUCTORIO COMERLOGISTICS](https://img.youtube.com/vi/abcdefg1234/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=2s)
+## Video de YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
