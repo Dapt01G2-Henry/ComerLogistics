@@ -21,9 +21,7 @@
 * 👨‍💻**Roman, Hernan Rufino - Data Analytics** <a href="https://www.linkedin.com/in/hernan-roman-r/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Roman%20Hernan%20Rufino.png" alt="Roman, Hernan Rufino" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
 
 
-## Video de YouTube:
-
-## Video de YouTube
+## Video Introductorio:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -108,7 +106,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ## Diagrama Entidad Relacion:
 
 <p align='center'>
-<img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\DiagramaEntidadRelacion\DER_InventorioBD_drawio(1).png" width="75%">
+<img alt="stack" src="[C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\DiagramaEntidadRelacion\DER_InventorioBD_drawio(1).png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/DiagramaEntidadRelacion/diagrama%20ER.png?raw=true)" width="75%">
 </p>
 
 ## Detalles del repositorio:  
