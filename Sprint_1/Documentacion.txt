@@ -18,3 +18,5 @@ equipo las correcciones y mejoras a realizar.
 Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
 
 Se va realizando la respectiva documentacion y se crea el archivo Informe del flujo del proyecto donde se detalla los pasos realizados.
+
+Se debe realizar la presentacion de acuerdo a los entregables.
