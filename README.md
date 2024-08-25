@@ -1,5 +1,7 @@
 
-# 🚀**Proyecto Final Grupal (Henry / Data Analytics)** 🚀
+<p align="center">
+  <strong><span style="font-size: 24px;">🚀 Proyecto Final Grupal (Henry / Data Analytics) 🚀</span></strong>
+</p>
 
  
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
