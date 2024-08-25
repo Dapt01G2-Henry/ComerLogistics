@@ -64,8 +64,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ##  ✅🚀 **PROPUESTA y OBJETIVOS de Data Vision Strategy** :🚀
 
 <p align="center">
-  <img src="img/logo_nosotros.png" alt="Logo" width="350" height="350">
+  <img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Imagenes/Logos/Logo%20Data%20Vision%20Strategy.png?raw=true" alt="Logo" width="350" height="350">
 </p>
+
 
 ##  ✅🎯*Objetivos* 🎯
 
