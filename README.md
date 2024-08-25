@@ -25,9 +25,9 @@
 
 ## ✅ Video Introductorio :
 
-<a href="[https://www.youtube.com/watch?v=T6dHl5rLlYY](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)" target="_blank">
-  <img src="https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg" alt="Portada del Video" style="max-width:100%; height:auto;">
-</a>
+[![Portada](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)
+
+
 
 
 
