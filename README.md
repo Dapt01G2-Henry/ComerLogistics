@@ -7,7 +7,7 @@
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
 <p align="center">
-  <img src="[img/data_analytics.avif](https://raw.githubusercontent.com/Dapt01G2-Henry/ComerLogistics/main/Imagenes/Logos/data_analytics.avif)" alt="Header" width="800">
+  <img src="https://raw.githubusercontent.com/Dapt01G2-Henry/ComerLogistics/main/Imagenes/Logos/data_analytics.avif" alt="Header" width="800">
 </p>
 
 
