@@ -4,7 +4,11 @@
  
 #  **<p align="center">"Optimización Integral de Inventarios y Gestión de Costos para el Comercio y Distribución"</p>** 
 
-<img src="img/data_analytics.avif" alt="Header" width="300%" style="max-width: 1800px; height: auto;">
+![Header](img/data_analytics.avif)
+
+<img src="img/data_analytics.avif" alt="Header" width="800">
+
+
 
 
 ##  ✅CONSULTORA: 📈 **Data Vision Strategy** 📈
