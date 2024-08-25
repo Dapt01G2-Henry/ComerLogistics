@@ -32,7 +32,10 @@
 
 ##  ✅ *EMPRESA:* **ComerLogistics**
 
-<img src="img/logo.png" alt="Logo" width="300" height="300">
+<p align="center">
+  <img src="img/logo.png" alt="Logo" width="350" height="350">
+</p>
+
 
 🥂🍻🍹 **“ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas.** 🥂🍻🍹
 
