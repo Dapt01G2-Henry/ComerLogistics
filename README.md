@@ -60,7 +60,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ##  ✅🚀 **PROPUESTA y OBJETIVOS de Data Vision Strategy** :🚀
 
-<img src="img/logo_nosotros.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 20px;">
+<p align="center">
+  <img src="img/logo_nosotros.png" alt="Logo" width="350" height="350">
+</p>
 
 ##  ✅🎯*Objetivos* 🎯
 
