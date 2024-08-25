@@ -11,7 +11,6 @@
 </p>
 
 
-
 ##  ✅CONSULTORA: 📈 **Data Vision Strategy** 📈
  
 ## ✅ Integrantes del equipo:
