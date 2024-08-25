@@ -30,7 +30,6 @@
 </a>
 >>>>>>> bc051e231a2f4f1c641907f59243f57ddebd3152
 
-[![Mira el siguiente video](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=2s)
 
 
 
