@@ -99,9 +99,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Detalle de comprea**
 * **Ventas**
 
-## ✅ **Trabajamos siguiendo el Cronograma de Trello **:
+## ✅Trabajamos siguiendo el Cronograma de Trello:
 
-[![Ver Tablero de Trello]([C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\img\trello.png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/img/trello.png))](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
+[![Tablero de Trello](C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\img\trello.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
 
 
 ## Diagrama Entidad Relacion:
