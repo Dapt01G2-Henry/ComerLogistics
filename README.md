@@ -21,7 +21,7 @@
 * 👨‍💻**Roman, Hernan Rufino - Data Analytics** <a href="https://www.linkedin.com/in/hernan-roman-r/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Roman%20Hernan%20Rufino.png" alt="Roman, Hernan Rufino" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
 
 
-## Video Introductorio:
+## ✅ Video Introductorio:
 
 [![Mira el siguiente video](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=2s)
 
