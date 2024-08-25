@@ -23,8 +23,7 @@
 
 ## Video Introductorio:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Mira el siguiente video](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=2s)
 
 
 
@@ -105,9 +104,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## Diagrama Entidad Relacion:
 
-<p align='center'>
-<img alt="stack" src="[C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\DiagramaEntidadRelacion\DER_InventorioBD_drawio(1).png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/DiagramaEntidadRelacion/diagrama%20ER.png?raw=true)" width="75%">
-</p>
+INCLUIR ACA LA IMAGEN 
+
+
 
 ## Detalles del repositorio:  
 
