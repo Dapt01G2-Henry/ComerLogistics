@@ -40,7 +40,7 @@
 ##  ✅ *EMPRESA:* **ComerLogistics**
 
 <p align="center">
-  <img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Imagenes/Logos/Logo%20ComerLogistics2.png?raw=true" alt="Logo" width="350" height="350">
+  <img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Imagenes/Logos/Logo%20ComerLogistics.png?raw=true" alt="Logo" width="350" height="350">
 </p>
 
 
