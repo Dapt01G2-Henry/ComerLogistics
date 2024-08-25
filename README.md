@@ -115,10 +115,9 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 <p align="center">
   <a href="https://trello.com/b/ojPp3lEU/dapt01g2-henry">
-    <img src="[img/trello.png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Imagenes/Logos/trello.png?raw=true)" alt="Tablero de Trello" width="800">
+    <img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Imagenes/Logos/trello.png?raw=true" alt="Tablero de Trello" width="800">
   </a>
 </p>
-
 
 
 ## ✅ **Diagrama Entidad Relacion:**
