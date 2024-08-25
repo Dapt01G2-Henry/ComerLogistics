@@ -28,16 +28,11 @@
 [![Portada](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)
 
 
-
-
-
-
-
 ##  📋 *Industria y contexto del caso de negocio a desarrollar:*📋
 
 ##  ✅ *EMPRESA:* **ComerLogistics**
 
-<img src="img/logo.png" alt="Logo" width="150" height="150" style="float: left; margin-right: 100px;">
+<img src="img/logo.png" alt="Logo" width="300" height="300">
 
 🥂🍻🍹 **“ComerLogistics” es un comercio del sector de distribución y venta de bebidas alcohólicas. Este rubro se dedica a la compra, almacenamiento, y venta de una amplia variedad de licores, incluyendo vinos, cervezas, destilados y otras bebidas alcohólicas. La empresa se encarga de gestionar tanto las adquisiciones de productos de distintos proveedores como la distribución y venta a consumidores finales o negocios minoristas.** 🥂🍻🍹
 
