@@ -23,7 +23,8 @@
 
 ## Video de YouTube:
 
-* <iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Ver Video](https://www.youtube.com/watch?v=T6dHl5rLlYY)
+
 
 
 
