@@ -97,11 +97,11 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * **Detalle de comprea**
 * **Ventas**
 
-## Trabajamos siguiendo el **CRONOGRAMA EN TRELLO **:
+## ✅ Trabajamos siguiendo el **CRONOGRAMA EN TRELLO **:
 
-<p align='center'>
-<img alt="stack" src="C:\Users\danie\OneDrive\Escritorio\GitProyectoFinal\ComerLogistics\Trello_HerramientaGestion\trello.png" width="75%">
-</p>
+
+[![Tablero de Trello](img/trello_preview.png)](https://trello.com/b/ojPp3lEU/dapt01g2-henry)
+
 
 ## Diagrama Entidad Relacion:
 
