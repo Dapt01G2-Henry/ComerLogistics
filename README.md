@@ -147,7 +147,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
   
 ⭕* **Imagenes**
 
-⭕ * **README.md**
+⭕ [**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/commit/00008499986808ee57e67bd4f52b0914a768b2f4)
 
 
 
