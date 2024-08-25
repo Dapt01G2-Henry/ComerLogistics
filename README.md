@@ -6,7 +6,7 @@
 
 ![Header](img/data_analytics.avif)
 
-<img src="img/data_analytics.avif" alt="Header" width="800">
+<img src="img/data_analytics.avif" alt="Header" width="1800">
 
 
 
