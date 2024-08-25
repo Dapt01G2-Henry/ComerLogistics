@@ -13,7 +13,7 @@
 
 
 ##  ✅CONSULTORA: 📈 **Data Vision Strategy** 📈
-
+ 
 ## ✅ Integrantes del equipo:
 
 * 👨‍💻**Dussan Rivera, Carlos Fernando - Data Analytics** <a href="https://www.linkedin.com/in/carlosfdussan/"><img src="https://github.com/Dapt01G2-Henry/ComerLogistics/blob/ca6a9732f2f931933021e216ce09885a939f12a1/img/Iconos%20de%20Rostros/Dussan%20Rivera%20Carlos%20Fernando.png" alt="Dussan Rivera, Carlos Fernando" title="LinkedIn" style="width:50px; vertical-align:middle;"/></a>
