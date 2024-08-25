@@ -1,6 +1,6 @@
 
 # <p align="center">
-#  <strong><span style="font-size: 24px;">🚀 Proyecto Final Grupal (Henry / Data Analytics) 🚀</span></strong>
+#  <strong><span style="font-size: 24px;">🚀 **Proyecto Final Grupal (Henry / Data Analytics)** 🚀</span></strong>
 # </p>
 
  
