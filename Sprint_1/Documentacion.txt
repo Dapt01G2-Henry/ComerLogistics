@@ -20,3 +20,5 @@ Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de
 Se va realizando la respectiva documentacion y se crea el archivo Informe del flujo del proyecto donde se detalla los pasos realizados.
 
 Se debe realizar la presentacion de acuerdo a los entregables.
+
+Se debe presentar srint 1 y sprint 2 el 30 de agosto.
