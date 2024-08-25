@@ -28,7 +28,7 @@
 <a href="[https://www.youtube.com/watch?v=T6dHl5rLlYY](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)" target="_blank">
   <img src="https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg" alt="Portada del Video" style="max-width:100%; height:auto;">
 </a>
->>>>>>> bc051e231a2f4f1c641907f59243f57ddebd3152
+
 
 
 
