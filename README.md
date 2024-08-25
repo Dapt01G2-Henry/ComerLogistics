@@ -30,9 +30,8 @@
 
 ## ✅ Video Introductorio :
 
-<p align="center">
-  [![Portada](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)
-</p>
+[![Portada](https://img.youtube.com/vi/T6dHl5rLlYY/0.jpg)](https://www.youtube.com/watch?v=T6dHl5rLlYY&t=5s)
+
 
 
 
