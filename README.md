@@ -24,12 +24,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-## ✅ Video Introductorio:
-=======
-## Video de YouTube:
 
-* <iframe width="560" height="315" src="https://www.youtube.com/embed/T6dHl5rLlYY?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
->>>>>>> b494ef3 (version 2)
 =======
 ## ✅ Video Introductorio :
 
