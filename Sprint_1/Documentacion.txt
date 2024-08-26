@@ -9,11 +9,22 @@ Daniela:        2017PurchasePricesDec
 Carlos F:       BegInvFINAL12312016
 Carlos F:       EndInvFINAL12312016
 Hernan:         InvoicePurchases12312016
-Ruben:          PurchasesFINAL12312016
+Ruben:          PurchasesFINAL12312016          
 Marcelo:        SalesFINAL12312016
 
 Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
 equipo las correcciones y mejoras a realizar.
+
+Nombre Original del archivo         Nuevo nombres
+
+2017PurchasePricesDec               
+BegInvFINAL12312016                 Tabla_InventarioInicial
+EndInvFINAL12312016                 Tabla_InventarioFinal
+InvoicePurchases12312016
+PurchasesFINAL12312016              Tabla_DetalleCompras
+SalesFINAL12312016
+
+
 
 Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
 
