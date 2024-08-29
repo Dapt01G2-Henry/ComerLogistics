@@ -20,9 +20,9 @@ Nombre Original del archivo         Nuevo nombres
 2017PurchasePricesDec               Tabla_Producto
 BegInvFINAL12312016                 Tabla_InventarioInicial
 EndInvFINAL12312016                 Tabla_InventarioFinal
-InvoicePurchases12312016
+InvoicePurchases12312016            Tabla_Compras
 PurchasesFINAL12312016              Tabla_DetalleCompras
-SalesFINAL12312016
+SalesFINAL12312016                  Tabla_VentasFinal
 
 
 
