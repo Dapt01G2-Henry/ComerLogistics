@@ -33,3 +33,91 @@ Se va realizando la respectiva documentacion y se crea el archivo Informe del fl
 Se debe realizar la presentacion de acuerdo a los entregables.
 
 Se debe presentar srint 1 y sprint 2 el 30 de agosto.
+
+Documentación del Proyecto ComerLogistics
+1. Introducción
+El proyecto ComerLogistics tiene como objetivo optimizar la gestión de inventarios y la trazabilidad de productos de una compañía de logística 
+mediante un enfoque integral de análisis de datos. Se han utilizado herramientas avanzadas como Python, SQL y Power BI para diseñar un sistema 
+automatizado que permita el análisis detallado de ventas, compras e inventarios, con la finalidad de mejorar la toma de decisiones estratégicas.
+
+2. Configuración Inicial
+2.1 Creación del Repositorio Público
+Acción Realizada: Se creó un repositorio público en GitHub denominado ComerLogistics, accesible en ComerLogistics GitHub. Este repositorio contiene 
+todos los scripts, notebooks y documentación necesarios para el desarrollo del proyecto. El repositorio fue compartido con todo el equipo, permitiendo
+ una colaboración fluida y seguimiento de las modificaciones realizadas.
+
+2.2 Estructura de Carpetas
+Acción Realizada: Se estableció la siguiente estructura de carpetas en el repositorio:
+DiagramaEntidadRelacion: Contiene los diagramas ER utilizados para definir las relaciones entre las tablas de la base de datos.
+Imagenes: Almacena recursos visuales como logos, íconos y fondos virtuales.
+Sprint_1: Carpeta principal donde se encuentran los scripts y notebooks divididos en subcarpetas, entre ellas:
+Conexion_SQL_Python: Scripts relacionados con la conexión a SQL y la automatización de procesos de carga de datos.
+DataSet: Contiene los archivos de datos utilizados en el proyecto, con un archivo que referencia los datasets en Drive.
+EDA y ETL: Notebooks dedicados al análisis exploratorio de datos y procesos de ETL (Extracción, Transformación y Carga).
+Web_Scraping: Carpeta para los scripts de scraping web utilizados para la obtención de datos adicionales.
+Documentacion.txt: Archivo de texto con la documentación de cada paso realizado.
+
+3. Creación y Configuración de la Base de Datos
+3.1 Creación de la Base de Datos
+Acción Realizada: Se configuró una base de datos SQL Server denominada COMERLOGISTICS. Utilizando Python, a través de las librerías SQLAlchemy y PyODBC, 
+se estableció una conexión que permite realizar operaciones CRUD (Create, Read, Update, Delete) en la base de datos.
+3.2 Identificación de Entidades y Tablas
+Acción Realizada: Después de un análisis detallado de los datos, se identificaron las entidades principales y las tablas correspondientes, las cuales incluyen:
+Tabla_Compras: Registra las compras realizadas por la compañía.
+Tabla_DetalleCompras: Detalles específicos de cada compra, como productos y cantidades.
+Tabla_InventarioInicial: Inventario al inicio del período analizado.
+Tabla_InventarioFinal: Inventario al final del período analizado.
+Tabla_Producto: Información detallada de los productos gestionados.
+Tabla_VentasFinal: Registra las ventas realizadas por la compañía.
+3.3 Creación de Tablas y Objetos SQL
+Acción Realizada: Se crearon las tablas mencionadas en la base de datos SQL Server, y se definieron las relaciones entre ellas utilizando claves primarias y 
+foráneas, tal como se muestra en los diagramas ER proporcionados en la carpeta DiagramaEntidadRelacion. Se eligió un modelo de datos en copo de nieve para 
+facilitar las consultas y optimizar la base de datos.
+
+4. Flujo de Ingesta de Datos
+4.1 Extracción, Transformación y Carga de Datos (ETL)
+Acción Realizada: Se desarrolló un proceso ETL en Python, utilizando Jupyter Notebooks alojados en la carpeta EDA y ETL. Este proceso incluye:
+Extracción: Lectura de archivos CSV y otros formatos de datos, transformando y normalizando la información.
+Transformación: Manipulación de datos, manejo de valores nulos, y realización de operaciones aritméticas y de limpieza.
+Carga: Inserción de los datos transformados en la base de datos SQL Server, utilizando la conexión establecida.
+4.2 Validación del Proceso
+Acción Realizada: Se realizaron pruebas de acceso para asegurar que todos los miembros del equipo puedan interactuar con la base de datos sin problemas. 
+Se verificó que las operaciones de extracción y carga de datos se realizan correctamente.
+5. Automatización de la Ingesta de Datos Nuevos
+5.1 Implementación de la Automatización
+Acción Realizada: Se desarrolló un script en Python, disponible en el notebook AutomatizacionDatosNuevos.ipynb, que permite la ingesta incremental de nuevos datos. 
+Este script verifica los datos existentes en la base de datos y solo carga registros que no estén previamente almacenados.
+5.2 Ejecución Automática
+Acción Realizada: Para automatizar la ejecución del script, se creó un archivo .bat que es ejecutado por el Task Scheduler de Windows a una hora específica semanalmente.
+ Esto asegura que los datos se mantengan actualizados sin intervención manual.
+5.3 Validación y Monitorización
+Acción Realizada: Se realizaron pruebas para asegurar la correcta ejecución del proceso automatizado, verificando que no se produzcan duplicados y que todos los 
+datos nuevos se ingresen correctamente.
+
+6. Análisis Exploratorio y Transformación de Datos (EDA)
+6.1 Análisis Exploratorio
+Acción Realizada: Se llevó a cabo un análisis exploratorio de los datos en los notebooks EDA y ETL.ipynb y AnalisisTablas.ipynb, donde se examinaron 
+distribuciones, outliers, y se identificaron tendencias y patrones en los datos.
+6.2 Transformación y Limpieza
+Acción Realizada: Los datos fueron transformados para adecuarse a los formatos requeridos en la base de datos y para las visualizaciones en Power BI. 
+Se manejaron valores nulos, se normalizaron columnas, y se realizaron operaciones para enriquecer los datos con información relevante.
+
+7. Visualización de Datos y Dashboard en Power BI
+7.1 Diseño del Dashboard
+Acción Realizada: Utilizando los datos cargados en SQL Server, se diseñó un dashboard en Power BI que permite la visualización interactiva de las ventas, 
+inventarios y otras métricas clave de ComerLogistics.
+7.2 Funcionalidades del Dashboard
+Acción Realizada: El dashboard incluye gráficos de barras, líneas de tendencia y tablas dinámicas, así como segmentadores y filtros que permiten a los 
+usuarios analizar los datos desde diferentes perspectivas.
+7.3 Interactividad y Análisis
+Acción Realizada: Se añadieron funcionalidades interactivas para que los usuarios puedan desglosar y analizar los datos en diferentes niveles de detalle, 
+facilitando la toma de decisiones basada en datos.
+
+8. Conclusión y Próximos Pasos
+8.1 Conclusión
+Se ha logrado implementar un sistema integral que cubre desde la extracción de datos hasta la visualización en dashboards interactivos. Los procesos han sido automatizados, lo que garantiza la actualización constante de los datos y la fiabilidad del sistema.
+
+8.2 Próximos Pasos
+Continuar con el refinamiento y optimización del pipeline de datos.
+Implementar alertas para la detección de anomalías en tiempo real.
+Mejorar las visualizaciones en Power BI con nuevos gráficos y funcionalidades avanzadas.
