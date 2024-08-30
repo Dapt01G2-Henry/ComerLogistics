@@ -1,40 +1,5 @@
-Iniciamos la limpieza de datos repartiendonos los archivos del data set.
-
-Cada uno debe de limpiar el archivo(s) que le correspondio, utilizando Python y subir el query del codigo utilizado.
-Para eso desarrollara el archivo en Visual, generando un archivo ipynb.
-
-Estos son los nombres del responsable y el archivo correspondiente:
-
-Daniela:        2017PurchasePricesDec
-Carlos F:       BegInvFINAL12312016
-Carlos F:       EndInvFINAL12312016
-Hernan:         InvoicePurchases12312016
-Ruben:          PurchasesFINAL12312016          
-Marcelo:        SalesFINAL12312016
-
-Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
-equipo las correcciones y mejoras a realizar.
-
-Nombre Original del archivo         Nuevo nombres
-
-2017PurchasePricesDec               Tabla_Producto
-BegInvFINAL12312016                 Tabla_InventarioInicial
-EndInvFINAL12312016                 Tabla_InventarioFinal
-InvoicePurchases12312016            Tabla_Compras
-PurchasesFINAL12312016              Tabla_DetalleCompras
-SalesFINAL12312016                  Tabla_VentasFinal
-
-
-
-Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
-
-Se va realizando la respectiva documentacion y se crea el archivo Informe del flujo del proyecto donde se detalla los pasos realizados.
-
-Se debe realizar la presentacion de acuerdo a los entregables.
-
-Se debe presentar srint 1 y sprint 2 el 30 de agosto.
-
 Documentación del Proyecto ComerLogistics
+
 1. Introducción
 El proyecto ComerLogistics tiene como objetivo optimizar la gestión de inventarios y la trazabilidad de productos de una compañía de logística 
 mediante un enfoque integral de análisis de datos. Se han utilizado herramientas avanzadas como Python, SQL y Power BI para diseñar un sistema 
@@ -78,8 +43,41 @@ facilitar las consultas y optimizar la base de datos.
 4.1 Extracción, Transformación y Carga de Datos (ETL)
 Acción Realizada: Se desarrolló un proceso ETL en Python, utilizando Jupyter Notebooks alojados en la carpeta EDA y ETL. Este proceso incluye:
 Extracción: Lectura de archivos CSV y otros formatos de datos, transformando y normalizando la información.
+
+Iniciamos la limpieza de datos repartiendonos los archivos del data set.
+
+Cada uno debe de limpiar el archivo(s) que le correspondio, utilizando Python y subir el query del codigo utilizado.
+Para eso desarrollara el archivo en Visual, generando un archivo ipynb.
+
+Estos son los nombres del responsable y el archivo correspondiente:
+
+Daniela:        2017PurchasePricesDec
+Carlos F:       BegInvFINAL12312016
+Carlos F:       EndInvFINAL12312016
+Hernan:         InvoicePurchases12312016
+Ruben:          PurchasesFINAL12312016          
+Marcelo:        SalesFINAL12312016
+
+Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
+equipo las correcciones y mejoras a realizar.
+
+Nombre Original del archivo         Nuevo nombres
+
+2017PurchasePricesDec               Tabla_Producto
+BegInvFINAL12312016                 Tabla_InventarioInicial
+EndInvFINAL12312016                 Tabla_InventarioFinal
+InvoicePurchases12312016            Tabla_Compras
+PurchasesFINAL12312016              Tabla_DetalleCompras
+SalesFINAL12312016                  Tabla_VentasFinal
+
 Transformación: Manipulación de datos, manejo de valores nulos, y realización de operaciones aritméticas y de limpieza.
+Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
+
+Se va realizando la respectiva documentacion y se crea el archivo Informe del flujo del proyecto donde se detalla 
+los pasos realizados.
+
 Carga: Inserción de los datos transformados en la base de datos SQL Server, utilizando la conexión establecida.
+
 4.2 Validación del Proceso
 Acción Realizada: Se realizaron pruebas de acceso para asegurar que todos los miembros del equipo puedan interactuar con la base de datos sin problemas. 
 Se verificó que las operaciones de extracción y carga de datos se realizan correctamente.
