@@ -78,10 +78,11 @@ SalesFINAL12312016                  Tabla_VentasFinal
 Transformación: Manipulación de datos, manejo de valores nulos, y realización de operaciones aritméticas y de limpieza.
 Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
 
-Se va realizando la respectiva documentacion y se crea el archivo Informe del flujo del proyecto donde se detalla 
-los pasos realizados.
+Se va realizando la respectiva documentacion (Informde de operaciones del Proyecto y Operaciones realizadas ) y se crea el archivo Informe del flujo del proyecto donde se detalla 
+los pasos realizados. Igualmente en el archivo 'DataSets en Drive.txt' esta el vinculo de los data sets resultantes.
 
-Carga: Inserción de los datos transformados en la base de datos SQL Server, utilizando la conexión establecida.
+Carga: Inserción de los datos transformados en la base de datos SQL Server, utilizando la conexión establecida. 
+Se puede consultar el proceso en el archivo 'Carga_Datos_Finales_a_SQL.ipynb'
 
 4.2 Validación del Proceso
 Acción Realizada: Se realizaron pruebas de acceso para asegurar que todos los miembros del equipo puedan interactuar con la base de datos sin problemas. 
