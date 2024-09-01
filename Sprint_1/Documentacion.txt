@@ -28,6 +28,7 @@ Documentacion.txt: Archivo de texto con la documentación de cada paso realizado
 3.1 Creación de la Base de Datos
 Acción Realizada: Se configuró una base de datos SQL Server denominada COMERLOGISTICS. Utilizando Python, a través de las librerías SQLAlchemy y PyODBC, 
 se estableció una conexión que permite realizar operaciones CRUD (Create, Read, Update, Delete) en la base de datos.
+
 3.2 Identificación de Entidades y Tablas
 Acción Realizada: Después de un análisis detallado de los datos, se identificaron las entidades principales y las tablas correspondientes, las cuales incluyen:
 Tabla_Compras: Registra las compras realizadas por la compañía.
@@ -36,6 +37,7 @@ Tabla_InventarioInicial: Inventario al inicio del período analizado.
 Tabla_InventarioFinal: Inventario al final del período analizado.
 Tabla_Producto: Información detallada de los productos gestionados.
 Tabla_VentasFinal: Registra las ventas realizadas por la compañía.
+
 3.3 Creación de Tablas y Objetos SQL
 Acción Realizada: Se crearon las tablas mencionadas en la base de datos SQL Server, y se definieron las relaciones entre ellas utilizando claves primarias y 
 foráneas, tal como se muestra en los diagramas ER proporcionados en la carpeta DiagramaEntidadRelacion. Se eligió un modelo de datos en copo de nieve para 
