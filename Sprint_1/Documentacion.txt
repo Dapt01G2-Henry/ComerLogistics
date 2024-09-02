@@ -135,3 +135,4 @@ Se ha logrado implementar un sistema integral que cubre desde la extracción de 
 Continuar con el refinamiento y optimización del pipeline de datos.
 Implementar alertas para la detección de anomalías en tiempo real.
 Mejorar las visualizaciones en Power BI con nuevos gráficos y funcionalidades avanzadas.
+Realizar la presentacion del Sprint 2.
