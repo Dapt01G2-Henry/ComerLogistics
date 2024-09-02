@@ -131,24 +131,24 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## ✅ **Detalles del Repositorio:**
 
-⭕ [**DiagramaEntidadRelacion**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/998948d932ffb5ae44c24493ef1d626b12cb7dfd/DiagramaEntidadRelacion)
+⭕ [**DiagramaEntidadRelacion**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion)
 
 ⭕ [**SPRINT 1**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/998948d932ffb5ae44c24493ef1d626b12cb7dfd/Sprint_1)
 
 * [Conexion SQL/PYTHON](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python)
 * [DataSet](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/DataSet)
-* [Diagrama_Entidad_Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Diagrama_Entidad_Relacion)
-* [EDA y ETL](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/EDA%20y%20ETL)
+* [Diagrama_Entidad_Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion/DIAGRAMA_ProyectoFinal_SQL.drawio.png)
+* [EDA y ETL](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Sprint_1/EDA%20y%20ETL)
 
 ⭕[**SPRINT 2**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
 
 * [ComerLogistics.pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
 
-⭕[**Web_Scraping**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
+⭕[**Web_Scraping**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Web_Scraping)
   
-⭕[**Imagenes**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
+⭕[**Imagenes**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Imagenes)
 
-⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/commit/00008499986808ee57e67bd4f52b0914a768b2f4)
+⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/README.md)
 
 
 
