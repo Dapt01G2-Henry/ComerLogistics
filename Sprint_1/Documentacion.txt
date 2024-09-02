@@ -137,3 +137,4 @@ Implementar alertas para la detección de anomalías en tiempo real.
 Mejorar las visualizaciones en Power BI con nuevos gráficos y funcionalidades avanzadas.
 Verificar que se cuente una historia con la presentacion (Storytelling).
 Realizar la presentacion del Sprint 2.
+Ensayo
