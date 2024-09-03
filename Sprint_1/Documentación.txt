@@ -15,7 +15,7 @@ todos los scripts, notebooks y documentación necesarios para el desarrollo del 
 2.2 Estructura de Carpetas
 Acción Realizada: Se estableció la siguiente estructura de carpetas en el repositorio:
 DiagramaEntidadRelacion: Contiene los diagramas ER utilizados para definir las relaciones entre las tablas de la base de datos.
-Imagenes: Almacena recursos visuales como logos, íconos y fondos virtuales.
+Imágenes: Almacena recursos visuales como logos, íconos y fondos virtuales.
 Sprint_1: Carpeta principal donde se encuentran los scripts y notebooks divididos en subcarpetas, entre ellas:
 Conexion_SQL_Python: Scripts relacionados con la conexión a SQL y la automatización de procesos de carga de datos.
 DataSet: Contiene los archivos de datos utilizados en el proyecto, con un archivo que referencia los datasets en Drive.
@@ -49,10 +49,10 @@ facilitar las consultas y optimizar la base de datos.
 Acción Realizada: Se desarrolló un proceso ETL en Python, utilizando Jupyter Notebooks alojados en la carpeta EDA y ETL. Este proceso incluye:
 Extracción: Lectura de archivos CSV y otros formatos de datos, transformando y normalizando la información.
 
-Iniciamos la limpieza de datos repartiendonos los archivos del data set.
+Iniciamos la limpieza de datos repartiéndonos los archivos del data set.
 
 Cada uno debe de limpiar el archivo(s) que le correspondio, utilizando Python y subir el query del codigo utilizado.
-Para eso desarrollara el archivo en Visual, generando un archivo ipynb.
+Para eso desarrollará el archivo en Visual, generando un archivo ipynb.
 
 Estos son los nombres del responsable y el archivo correspondiente:
 
@@ -76,7 +76,7 @@ PurchasesFINAL12312016              Tabla_DetalleCompras
 SalesFINAL12312016                  Tabla_VentasFinal
 
 Transformación: Manipulación de datos, manejo de valores nulos, y realización de operaciones aritméticas y de limpieza.
-Se deben llegar a acuerdos respectos al fortmato de fechas y unificar el tipo de dato de cada columna.
+Se deben llegar a acuerdos respectos al formato de fechas y unificar el tipo de dato de cada columna.
 
 Se va realizando la respectiva documentacion (Informde de operaciones del Proyecto y Operaciones realizadas ) y se crea el archivo Informe del flujo del proyecto donde se detalla 
 los pasos realizados. Igualmente en el archivo 'DataSets en Drive.txt' esta el vinculo de los data sets resultantes.
@@ -135,6 +135,6 @@ Se ha logrado implementar un sistema integral que cubre desde la extracción de 
 Continuar con el refinamiento y optimización del pipeline de datos.
 Implementar alertas para la detección de anomalías en tiempo real.
 Mejorar las visualizaciones en Power BI con nuevos gráficos y funcionalidades avanzadas.
-Verificar que se cuente una historia con la presentacion (Storytelling).
+Verificar que se cuente una historia con la presentación (Storytelling).
 Realizar la presentacion del Sprint 2.
 Ensayo
