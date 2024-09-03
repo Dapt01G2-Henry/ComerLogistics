@@ -122,7 +122,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 </p>
 
 
-## ✅ **Diagrama Entidad Relacion:**
+## ✅ **Diagrama Entidad - Relacion:**
 
 ![Diagrama Entidad Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/6f292e2e361d133b238cf4e8b48e7e4e5e08dac9/DiagramaEntidadRelacion/diagrama_ER_PowerBI.png)
 
