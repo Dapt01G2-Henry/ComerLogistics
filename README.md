@@ -131,7 +131,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## ✅ **Detalles del Repositorio:**
 
-⭕ [**DiagramaEntidadRelacion**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion)
+⭕ [**Diagrama Entidad - Relacion**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion)
 
 ⭕ [**SPRINT 1**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/998948d932ffb5ae44c24493ef1d626b12cb7dfd/Sprint_1)
 
