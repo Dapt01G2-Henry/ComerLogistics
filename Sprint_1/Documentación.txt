@@ -21,7 +21,7 @@ Conexion_SQL_Python: Scripts relacionados con la conexión a SQL y la automatiza
 DataSet: Contiene los archivos de datos utilizados en el proyecto, con un archivo que referencia los datasets en Drive.
 EDA y ETL: Notebooks dedicados al análisis exploratorio de datos y procesos de ETL (Extracción, Transformación y Carga).
 Web_Scraping: Carpeta para los scripts de scraping web utilizados para la obtención de datos adicionales.
-Documentacion.txt: Archivo de texto con la documentación de cada paso realizado.
+Documentación.txt: Archivo de texto con la documentación de cada paso realizado.
 
 3. Creación y Configuración de la Base de Datos
 
@@ -51,7 +51,7 @@ Extracción: Lectura de archivos CSV y otros formatos de datos, transformando y 
 
 Iniciamos la limpieza de datos repartiéndonos los archivos del data set.
 
-Cada uno debe de limpiar el archivo(s) que le correspondio, utilizando Python y subir el query del codigo utilizado.
+Cada uno debe de limpiar el archivo(s) que le correspondió, utilizando Python y subir el query del codigo utilizado.
 Para eso desarrollará el archivo en Visual, generando un archivo ipynb.
 
 Estos son los nombres del responsable y el archivo correspondiente:
@@ -66,7 +66,7 @@ Marcelo:        SalesFINAL12312016
 Realizado el EDA y ETL de cada archivo se va agregando el trabajo realizado a 'EDA y ETL.ipynb' y empezamos a analizar en 
 equipo las correcciones y mejoras a realizar.
 
-Nombre Original del archivo         Nuevo nombres
+Nombre Original del archivo         Nuevo nombre
 
 2017PurchasePricesDec               Tabla_Producto
 BegInvFINAL12312016                 Tabla_InventarioInicial
@@ -78,8 +78,8 @@ SalesFINAL12312016                  Tabla_VentasFinal
 Transformación: Manipulación de datos, manejo de valores nulos, y realización de operaciones aritméticas y de limpieza.
 Se deben llegar a acuerdos respectos al formato de fechas y unificar el tipo de dato de cada columna.
 
-Se va realizando la respectiva documentacion (Informde de operaciones del Proyecto y Operaciones realizadas ) y se crea el archivo Informe del flujo del proyecto donde se detalla 
-los pasos realizados. Igualmente en el archivo 'DataSets en Drive.txt' esta el vinculo de los data sets resultantes.
+Se va realizando la respectiva documentación (Informe de operaciones del Proyecto y Operaciones realizadas ) y se crea el archivo Informe del flujo del proyecto donde se detalla 
+los pasos realizados. Igualmente en el archivo 'DataSets en Drive.txt' está el vinculo de los data sets resultantes.
 
 Carga: Inserción de los datos transformados en la base de datos SQL Server, utilizando la conexión establecida. 
 Se puede consultar el proceso en el archivo 'Carga_Datos_Finales_a_SQL.ipynb'
