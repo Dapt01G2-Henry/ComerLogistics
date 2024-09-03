@@ -58,7 +58,7 @@
 **Data Vision Strategy**, una **consultora especializada** en análisis de datos, fue contratada para abordar estos desafíos. A través de un enfoque meticuloso, identificamos áreas clave de mejora en la gestión de inventarios. Utilizamos técnicas avanzadas de análisis de datos para diseñar soluciones personalizadas.
 
 * 🚀**Resultados esperados:** 🕵️‍♂🕵
-Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de inventarios, sino que también reduciran  significativamente los costos operativos. Para que asi **ComerLogistics** se convierta a corto plazo en una empresa más ágil y rentable.
+Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de inventarios, sino que también reduciran  significativamente los costos operativos, para que asi **ComerLogistics** se convierta a corto plazo en una empresa más ágil y rentable.
 
 
 ##  ✅🚀 **PROPUESTA y OBJETIVOS de Data Vision Strategy** :🚀
