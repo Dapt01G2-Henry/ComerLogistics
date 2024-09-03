@@ -35,7 +35,7 @@
 
 
 
-##  📋 Industria y contexto del caso de negocio a desarrollar:📋
+##  📋 **Industria y contexto del caso de negocio a desarrollar:**📋
 
 ##  ✅ *EMPRESA:* **ComerLogistics**
 
