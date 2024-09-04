@@ -130,7 +130,8 @@ facilitando la toma de decisiones basada en datos.
 8. Conclusión y Próximos Pasos
 
 8.1 Conclusión
-Se ha logrado implementar un sistema integral que cubre desde la extracción de datos hasta la visualización en dashboards interactivos. Los procesos han sido automatizados, lo que garantiza la actualización constante de los datos y la fiabilidad del sistema.
+Se ha logrado implementar un sistema integral que cubre desde la extracción de datos hasta la visualización en dashboards interactivos. Los procesos han 
+sido automatizados, lo que garantiza la actualización constante de los datos y la fiabilidad del sistema.
 
 8.2 Próximos Pasos
 Continuar con el refinamiento y optimización del pipeline de datos.
