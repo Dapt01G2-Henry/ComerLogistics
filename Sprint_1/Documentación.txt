@@ -116,7 +116,8 @@ Se manejaron valores nulos, se normalizaron columnas, y se realizaron operacione
 
 7.1 Diseño del Dashboard
 Acción Realizada: Utilizando los datos cargados en SQL Server, se diseñó un dashboard en Power BI que permite la visualización interactiva de las ventas, 
-inventarios y otras métricas clave de ComerLogistics.
+inventarios y otras métricas clave de ComerLogistics.El diseño esta enfocado en contar la historia (StoryTelling) de ComerLogistics a traves de los 
+insinghts.
 
 7.2 Funcionalidades del Dashboard
 Acción Realizada: El dashboard incluye gráficos de barras, líneas de tendencia y tablas dinámicas, así como segmentadores y filtros que permiten a los 
