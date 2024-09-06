@@ -35,4 +35,56 @@ Tras la creación del archivo, el siguiente paso fue la **importación de datos*
 
 _____
 
+## **Punto 2: Importación de Datos a Power BI**
+
+La importación de datos en Power BI fue un paso fundamental para comenzar a trabajar con la información disponible de **ComerLogistics** y dar inicio al análisis de los datos. Este proceso involucró la importación de archivos CSV, bases de datos SQL y otros orígenes de datos, de manera que se pudiera trabajar con ellos en el entorno de Power BI.
+
+### **2. Importación de Datos a Power BI**
+
+**Objetivo**: El objetivo de esta fase fue centralizar y cargar todos los datos relevantes en Power BI para realizar las transformaciones necesarias, análisis y posteriormente diseñar las visualizaciones interactivas.
+
+### **Detalles de la acción realizada**:
+
+1. **Selección de orígenes de datos**:
+   - Los datos fueron recopilados de múltiples fuentes, entre ellas archivos CSV que contenían los datos históricos de inventarios, ventas, compras y productos, así como de una base de datos SQL que almacenaba registros clave del negocio.
+   - El equipo decidió cargar todos los datos en Power BI desde estas fuentes para poder trabajar con ellos de manera centralizada.
+
+2. **Importación de datos clave**:
+   - **Inventario Inicial (BegInvFINAL12312016.csv)**: Representa el inventario al comienzo del período de análisis. Estos datos fueron esenciales para tener una referencia de las unidades disponibles y el valor del inventario en ese momento.
+   - **Inventario Final (EndInvFINAL12312016.csv)**: Inventario registrado al final del período de análisis. Estos datos permitieron comparar la evolución del inventario y analizar su rotación.
+   - **Compras (PurchasesFINAL12312016.csv)**: Registros de todas las compras realizadas por ComerLogistics durante el período. Se importaron los detalles de cada transacción, como las cantidades adquiridas, precios y fechas.
+   - **Ventas (SalesFINAL12312016.csv)**: Datos de las ventas realizadas en el período. Estos archivos contienen información como productos vendidos, cantidades, precios y tiendas involucradas.
+   - **Precios de Compra (2017PurchasePricesDec.csv)**: Archivo que contiene los precios de compra de los productos adquiridos, esencial para calcular los costos y márgenes.
+
+3. **Estructuración y unificación de los datos**:
+   - Durante la importación, se realizaron algunas modificaciones para asegurar que los datos de diferentes fuentes fueran compatibles entre sí y estuvieran listos para su análisis. Se realizó un mapeo de campos para asegurarse de que las tablas compartieran las claves necesarias (por ejemplo, *MarcaID* y *Tienda*).
+   - Cada archivo fue importado como una tabla independiente en **Power BI**, y se crearon relaciones entre ellas utilizando campos comunes, como *InventarioInicialID* o *MarcaID*. Esta estructura permitió realizar análisis cruzados entre las diferentes fuentes de datos.
+
+4. **Integración de bases de datos SQL**:
+   - Se estableció una conexión directa a la base de datos **SQL Server** donde se almacenan los registros históricos de la empresa. A través de esta conexión, los datos de **ComerLogistics** fueron importados automáticamente, asegurando que estuvieran siempre actualizados sin la necesidad de cargar manualmente archivos CSV adicionales.
+   - Las tablas de SQL importadas incluyen:
+     - **Tabla_InventarioInicial**
+     - **Tabla_InventarioFinal**
+     - **Tabla_Compras**
+     - **Tabla_VentasFinal**
+     - **Tabla_Producto**
+
+5. **Documentación de la importación**:
+   - Se generó documentación en el archivo `documentacion.md` del repositorio de GitHub, explicando los pasos seguidos para la importación de datos, las tablas involucradas, y las relaciones creadas entre ellas. Este archivo de documentación es clave para que todos los miembros del equipo comprendan cómo se ha estructurado la información dentro de Power BI.
+   - [Consulta el archivo de documentación en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/documentacion.md).
+
+### **Importancia de este paso en el proyecto**:
+
+- **Centralización de datos**: Al importar todos los datos relevantes a Power BI desde diferentes fuentes, se logró centralizar la información en una única plataforma. Esto facilita el análisis y permite a todos los miembros del equipo trabajar con los mismos datos actualizados.
+  
+- **Relaciones entre tablas**: La creación de relaciones entre las diferentes tablas importadas permitió realizar análisis más complejos y cruzados, como el impacto de las compras en el inventario final o la relación entre las ventas y los niveles de inventario en las tiendas.
+
+- **Automatización de la actualización de datos**: La conexión a la base de datos **SQL Server** permitió que los datos estuvieran siempre actualizados en **Power BI** sin necesidad de carga manual. Esto mejora la eficiencia del análisis y asegura que los informes siempre se basen en los datos más recientes.
+
+### **Siguientes pasos**:
+Con los datos ya importados y listos para su uso en **Power BI**, el siguiente paso fue la limpieza y transformación de los datos para asegurar su calidad y adecuarlos a los análisis que se realizarán en los reportes.
+
+[Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+
+_____
 
