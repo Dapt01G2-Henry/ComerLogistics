@@ -88,3 +88,242 @@ Con los datos ya importados y listos para su uso en **Power BI**, el siguiente p
 
 _____
 
+
+## **3. Limpieza y Transformación de los Datos en Power BI**
+
+El tercer paso en el desarrollo del **Sprint 2** fue la **limpieza** y **transformación** de los datos importados. Esta fase es crítica, ya que asegura que los datos estén libres de errores y en un formato que permita su análisis efectivo. A través de las herramientas de **Power Query** de Power BI, se realizaron diferentes transformaciones y operaciones de limpieza para preparar los datos para el análisis.
+
+### **Objetivo**:
+El objetivo de esta etapa fue realizar la limpieza y transformación de los datos, asegurando que todos los valores fueran correctos, sin duplicados, y en los formatos adecuados para su análisis. Además, se generaron columnas calculadas que agregaron valor a los reportes y medidas para el análisis posterior.
+
+### **Detalles de la acción realizada**:
+
+1. **Uso de Power Query para la limpieza de datos**:
+   - Una vez importados los datos, el siguiente paso fue cargar todas las tablas en **Power Query Editor**. Aquí se realizaron las primeras operaciones de limpieza:
+     - **Eliminación de duplicados**: Se revisaron las tablas para identificar y eliminar registros duplicados que pudieran generar distorsiones en el análisis. Esto fue especialmente importante en las tablas de compras y ventas, donde errores en la carga podrían llevar a una interpretación incorrecta de los volúmenes de transacciones.
+     - **Relleno de valores faltantes**: Se identificaron columnas que tenían valores faltantes y, dependiendo de la naturaleza del dato, se decidió si se rellenaban con valores predeterminados (por ejemplo, cero en el caso de cantidades) o si se eliminaban aquellos registros donde faltaba información crítica.
+     - **Corrección de errores tipográficos y formateo**: En las columnas de texto, como nombres de productos y tiendas, se unificaron los nombres que estaban mal escritos o con diferentes formatos. Esto incluyó la normalización de mayúsculas y minúsculas para evitar inconsistencias en el análisis.
+   
+2. **Transformación de tipos de datos**:
+   - Se corrigieron los tipos de datos de varias columnas para asegurar que las operaciones aritméticas y las agregaciones funcionaran correctamente:
+     - **Fechas**: Se aseguraron de que todas las columnas que contenían fechas, como *Fecha de Compra*, *Fecha de Venta*, y *Fecha de Inventario*, estuvieran correctamente tipificadas como fechas en **Power BI**. Esto es esencial para realizar análisis temporales y comparaciones de períodos.
+     - **Números y valores decimales**: Las columnas de cantidades, precios y totales se formatearon correctamente para permitir cálculos precisos, como sumas y promedios.
+     - **Texto**: Las columnas que contenían descripciones de productos, tiendas y marcas se verificaron para asegurarse de que estuvieran correctamente tipificadas como texto y sin errores.
+
+3. **Normalización y estandarización de los datos**:
+   - Uno de los retos de este proyecto fue trabajar con múltiples fuentes de datos, lo que significa que algunos nombres y formatos variaban entre tablas. Para solucionar esto, se realizó un proceso de normalización:
+     - **Estandarización de nombres de productos y tiendas**: Se crearon reglas para que los nombres de productos y tiendas fueran consistentes entre las diferentes tablas. Esto incluyó la eliminación de espacios innecesarios, la corrección de errores tipográficos y la unificación del uso de mayúsculas y minúsculas.
+     - **Unificación de formatos de fecha**: Todos los formatos de fecha fueron unificados para asegurar que se pudieran realizar comparaciones de manera precisa. Las fechas fueron formateadas como **"AAAA-MM-DD"** en todas las tablas para evitar confusiones con diferentes formatos regionales.
+     - **Tratamiento de valores faltantes y datos atípicos (outliers)**: Se revisaron las tablas para identificar datos atípicos, como precios extremadamente bajos o altos, y se tomaron decisiones sobre cómo manejarlos (por ejemplo, reemplazarlos con valores promedio o descartarlos si no eran representativos).
+
+4. **Creación de columnas calculadas**:
+   - Durante el proceso de transformación, se crearon varias **columnas calculadas** que añadieron valor al análisis y facilitaron la interpretación de los datos:
+     - **Unidades Disponibles por Producto y Tienda**: Se calculó una columna que indicaba las unidades disponibles por cada producto en cada tienda, combinando los datos del inventario inicial y las compras realizadas.
+     - **Valor Total del Inventario**: Se creó una columna que multiplicaba las unidades disponibles por el precio de compra de cada producto, permitiendo obtener el valor total del inventario en cada tienda y por cada producto.
+     - **Margen de Utilidad**: Se calculó el margen de utilidad para cada producto, restando el costo de compra al precio de venta, y dividiendo por el precio de venta. Este margen permitió identificar los productos más rentables para **ComerLogistics**.
+
+5. **Creación de medidas clave**:
+   - Se utilizaron fórmulas **DAX** (Data Analysis Expressions) para crear medidas que pudieran ser reutilizadas en diferentes visualizaciones y cálculos en el informe final. Entre las medidas creadas están:
+     - **Total Unidades Compradas**: `SUM(Tabla_Compras[CantidadComprada])`
+     - **Total Unidades Vendidas**: `SUM(Tabla_VentasFinal[CantidadVendida])`
+     - **Total Valor del Inventario**: `SUM(Tabla_InventarioFinal[Valor_total])`
+     - **Promedio de Margen de Utilidad**: `AVERAGE(Tabla_Producto[Margen_Utilidad])`
+     Estas medidas proporcionaron información clave sobre las transacciones y permitieron realizar comparaciones y análisis agregados.
+
+6. **Documentación del proceso de transformación**:
+   - Se documentaron todos los pasos de limpieza y transformación en el archivo **`documentacion.md`** del repositorio, proporcionando una descripción clara y detallada de cada operación realizada. Esta documentación es esencial para que todos los miembros del equipo puedan entender las decisiones tomadas durante el proceso de limpieza y transformación de los datos.
+   - [Consulta la documentación en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/documentacion.md).
+
+### **Importancia de este paso en el proyecto**:
+
+- **Calidad de los datos**: Al limpiar y transformar los datos, se aseguró que los análisis y reportes producidos en **Power BI** fueran precisos y reflejaran correctamente la situación del negocio. Los datos incorrectos o duplicados pueden llevar a decisiones erróneas, por lo que esta fase fue fundamental.
+  
+- **Facilitación del análisis**: Las columnas calculadas y las medidas creadas simplificaron el proceso de análisis en **Power BI**, permitiendo realizar cálculos complejos y visualizar rápidamente métricas importantes, como las unidades disponibles o el valor total del inventario.
+
+- **Automatización y escalabilidad**: Al automatizar la limpieza y transformación de los datos en **Power Query**, se aseguró que este proceso fuera reproducible para futuras cargas de datos. Esto significa que, cuando se agreguen nuevos datos, la misma lógica de limpieza se aplicará automáticamente, manteniendo la coherencia y calidad en los datos.
+
+### **Siguientes pasos**:
+Tras la limpieza y transformación de los datos, el equipo procederá a **crear las relaciones necesarias** entre las tablas y diseñar las **visualizaciones** para los informes en **Power BI**.
+
+---
+
+[Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+
+_____
+
+## **4. Creación de Medidas, Columnas Calculadas y Relaciones en Power BI**
+
+En este punto del **Sprint 2**, nos centramos en la creación de **medidas DAX**, **columnas calculadas** y el establecimiento de **relaciones** entre las tablas de datos. Estos elementos son fundamentales para que **Power BI** pueda realizar cálculos y análisis de forma dinámica y precisa.
+
+### **Objetivo**:
+El objetivo principal de esta etapa fue generar medidas y columnas que permitieran realizar cálculos específicos que no estaban presentes en los datos crudos, así como definir las relaciones entre las tablas para habilitar un análisis cruzado. Con estas herramientas, se logró preparar los datos para su uso en las visualizaciones y gráficos del informe final.
+
+### **Detalles de la acción realizada**:
+
+1. **Creación de Medidas DAX**:
+   - Las **medidas** son esenciales en **Power BI** para realizar cálculos complejos y agregar datos de manera dinámica. A continuación, se detallan las principales medidas creadas:
+     - **Total Unidades Iniciales**:
+       - Esta medida calcula el total de unidades disponibles al inicio del período analizado.
+       ```DAX
+       Total Unidades Iniciales = SUM(Tabla_InventarioInicial[Unidad_disponible])
+       ```
+       Esta medida permitió visualizar la cantidad de inventario inicial disponible en cada tienda y para cada producto.
+     
+     - **Total Unidades Finales**:
+       - Similar a la medida anterior, pero aplicada al inventario final.
+       ```DAX
+       Total Unidades Finales = SUM(Tabla_InventarioFinal[Unidad_disponible])
+       ```
+       Esta medida permitió analizar cómo evolucionó el inventario a lo largo del tiempo y en las diferentes ubicaciones.
+
+     - **Total Compras**:
+       - Mide el total de productos comprados durante el período analizado.
+       ```DAX
+       Total Compras = SUM(Tabla_Compras[CantidadComprada])
+       ```
+       Esta medida proporcionó una visión detallada de las compras por tienda y producto, permitiendo analizar patrones de compra.
+
+     - **Total Ventas**:
+       - Calcula la suma total de unidades vendidas en el período.
+       ```DAX
+       Total Ventas = SUM(Tabla_VentasFinal[CantidadVendida])
+       ```
+       Esta medida fue clave para analizar los productos más vendidos y las tiendas con mayor volumen de ventas.
+
+     - **Valor Monetario Total del Inventario**:
+       - Calcula el valor monetario total del inventario, multiplicando las unidades disponibles por el precio de compra de cada producto.
+       ```DAX
+       Valor Monetario Total = SUMX(Tabla_InventarioFinal, Tabla_InventarioFinal[Unidad_disponible] * RELATED(Tabla_Productos[Precio_compra]))
+       ```
+       Esta medida permitió evaluar el valor económico de los productos almacenados en las distintas ubicaciones.
+
+     - **Margen de Utilidad por Producto**:
+       - Calcula el margen de utilidad por producto, restando el precio de compra del precio de venta, y dividiendo por el precio de venta.
+       ```DAX
+       Margen de Utilidad = DIVIDE(SUM(Tabla_Producto[Precio_venta] - Tabla_Producto[Precio_compra]), SUM(Tabla_Producto[Precio_venta]))
+       ```
+       Esta medida fue importante para identificar los productos más rentables y para evaluar el desempeño financiero de cada línea de productos.
+
+2. **Creación de Columnas Calculadas**:
+   - A diferencia de las medidas, las **columnas calculadas** se generan en el nivel de fila y son útiles cuando se necesita realizar cálculos dentro de una tabla en particular. Algunas de las columnas creadas incluyen:
+     
+     - **Valor Total del Inventario**:
+       - Esta columna calcula el valor total del inventario disponible en cada tienda para cada producto.
+       ```DAX
+       Valor Total Inventario = Tabla_InventarioFinal[Unidad_disponible] * RELATED(Tabla_Productos[Precio_compra])
+       ```
+
+     - **Rotación de Inventario**:
+       - Se creó una columna para calcular la rotación de inventario, que permite evaluar qué tan rápido se están vendiendo los productos en relación con el inventario disponible.
+       ```DAX
+       Rotación de Inventario = DIVIDE(Tabla_VentasFinal[CantidadVendida], Tabla_InventarioFinal[Unidad_disponible])
+       ```
+
+     - **Dias en Inventario**:
+       - Esta columna permitió calcular cuántos días en promedio se mantiene un producto en el inventario antes de venderse.
+       ```DAX
+       Dias en Inventario = Tabla_VentasFinal[Fecha_Venta] - Tabla_InventarioInicial[Fecha_Inventario]
+       ```
+
+3. **Establecimiento de Relaciones entre Tablas**:
+   - En **Power BI**, las relaciones permiten conectar diferentes tablas a través de campos comunes, lo que habilita el análisis cruzado entre diferentes conjuntos de datos. Para **ComerLogistics**, las relaciones clave se establecieron de la siguiente manera:
+     
+     - **Relación entre Inventario y Productos**:
+       - Se utilizó la columna `MarcaID` para conectar la tabla de inventario (inicial y final) con la tabla de productos. Esto permitió analizar cuántas unidades de cada marca estaban disponibles en el inventario y su respectivo valor.
+     
+     - **Relación entre Compras y Ventas**:
+       - Se estableció una relación entre las tablas de compras y ventas mediante el campo `ProductoID`, lo que permitió comparar directamente los productos comprados con los vendidos y calcular métricas como el margen de utilidad y la rotación del inventario.
+
+     - **Relación entre Tiendas y Compras/Ventas**:
+       - La tabla de tiendas fue relacionada con las tablas de compras y ventas mediante la columna `TiendaID`. Esto habilitó el análisis de las transacciones por ubicación geográfica, permitiendo comparar el desempeño de las diferentes tiendas.
+
+4. **Documentación y Optimización del Modelo de Datos**:
+   - Para asegurar la claridad en el manejo de los datos, se documentó todo el proceso de creación de medidas, columnas y relaciones en el archivo **`documentacion.md`**. Esto incluyó descripciones detalladas de cada medida y columna, así como las decisiones tomadas para establecer las relaciones entre las tablas.
+   - Además, se realizaron ajustes en el modelo de datos para optimizar el rendimiento de las consultas y mejorar la experiencia del usuario al interactuar con el **dashboard**. Esto incluyó la eliminación de columnas no utilizadas, la optimización de las relaciones, y la revisión de las medidas DAX para asegurar un cálculo eficiente.
+   
+   - [Consulta la documentación en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/documentacion.md).
+
+### **Importancia de este paso en el proyecto**:
+
+- **Análisis dinámico y detallado**: Las medidas y columnas calculadas permitieron realizar un análisis profundo de las transacciones y el inventario, brindando una visión clara de la relación entre compras, ventas y el inventario disponible.
+  
+- **Flexibilidad en las visualizaciones**: Al establecer relaciones entre las diferentes tablas, se logró flexibilidad para crear visualizaciones y gráficos en **Power BI**, donde los usuarios pueden explorar los datos desde diferentes perspectivas y filtrar por variables como tienda, producto o marca.
+
+- **Toma de decisiones basada en datos**: Las medidas generadas proporcionaron métricas clave para la toma de decisiones, como el valor total del inventario, la rotación de productos y el margen de utilidad, que fueron esenciales para identificar áreas de mejora en la gestión del inventario y las ventas.
+
+### **Siguientes pasos**:
+Con las medidas, columnas calculadas y relaciones correctamente configuradas, el equipo procederá a diseñar las visualizaciones y gráficos interactivos que presentarán la información de manera clara y eficiente para los usuarios finales.
+
+---
+
+[Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+
+_____
+
+## **5. Diseño de reportes y gráficos en Power BI**
+
+El diseño de reportes y gráficos es una fase crítica dentro del **Sprint 2**, ya que es el momento en el que los datos procesados se transforman en visualizaciones interactivas y accesibles que permiten la toma de decisiones basada en datos. En esta etapa, el equipo se concentró en crear un dashboard que no solo fuera visualmente atractivo, sino que también contara con la capacidad de proporcionar insights clave sobre las ventas, compras, y gestión de inventarios de **ComerLogistics**.
+
+### **Objetivo del paso**:
+El objetivo de este paso fue crear un conjunto de reportes y gráficos interactivos en **Power BI** que permitieran al equipo de **ComerLogistics** analizar su rendimiento operativo y financiero en tiempo real. Estos reportes ofrecen un análisis detallado sobre ventas, inventarios, y compras, proporcionando al usuario final una herramienta que les permite identificar tendencias, patrones y áreas de mejora.
+
+### **Detalles de la acción realizada**:
+
+1. **Creación de un Dashboard Principal**:
+   - El **dashboard principal** se diseñó con el propósito de ofrecer una **visión general del rendimiento del negocio**. Contiene **indicadores clave de rendimiento (KPIs)** que permiten realizar un seguimiento en tiempo real de las métricas más importantes para **ComerLogistics**.
+   - **Elementos clave del dashboard principal**:
+     - **KPIs de ventas y compras**: Estos indicadores proporcionan un resumen rápido de los ingresos totales, costos de las compras, y el margen de utilidad.
+     - **Gráfico de líneas comparativo**: Se incluyó un gráfico de líneas que muestra la evolución de las ventas y compras durante el período analizado. Este gráfico permite identificar tendencias y patrones a lo largo del tiempo, facilitando la toma de decisiones estratégicas sobre la gestión del inventario y la planificación de compras.
+     - **Tabla de inventario por tienda**: Una tabla dinámica que muestra el inventario disponible en cada tienda, desglosado por producto. Esta tabla es interactiva y permite a los usuarios aplicar filtros por ciudad, marca, y producto para profundizar en los detalles de las tiendas que les interesan.
+
+2. **Diseño de gráficos interactivos**:
+   - Se diseñaron una serie de gráficos interactivos que permitieron al usuario **explorar los datos de manera intuitiva**. Cada gráfico fue cuidadosamente seleccionado para representar la información más relevante de manera clara y visualmente atractiva.
+   
+   - **Gráficos clave diseñados**:
+     - **Gráfico de barras de ventas por tienda**:
+       - Este gráfico muestra la distribución de las ventas entre las diferentes tiendas de **ComerLogistics**. Permite comparar el rendimiento de las tiendas entre sí y analizar qué ubicaciones generaron mayores ingresos.
+       - Además, se añadió la posibilidad de **filtrar** las ventas por categorías de productos, marcas, y períodos de tiempo específicos.
+     - **Gráfico de barras de productos más vendidos**:
+       - Este gráfico destaca los **productos más vendidos** durante el período analizado, mostrando cuántas unidades de cada producto se vendieron. También se incluye un análisis por **categoría de productos**, lo que permite identificar las categorías más rentables para la empresa.
+     - **Gráfico de dispersión de rotación de inventario**:
+       - Este gráfico fue clave para identificar qué productos tienen la **mayor rotación de inventario**, ayudando a **ComerLogistics** a identificar aquellos productos que se venden más rápidamente y ajustar su estrategia de reposición y almacenamiento.
+   
+3. **Incorporación de mapas interactivos**:
+   - Se incluyó un **mapa interactivo** que muestra la distribución geográfica de las tiendas y el inventario disponible en cada una de ellas. Este mapa permite al usuario visualizar de manera intuitiva dónde se encuentran las tiendas con mayor cantidad de inventario, facilitando el análisis geoespacial de la distribución de productos.
+   
+   - **Elementos del mapa**:
+     - Cada punto en el mapa representa una tienda y su tamaño varía dependiendo de la cantidad de inventario disponible.
+     - Los usuarios pueden aplicar **filtros** para visualizar los datos por marca, ciudad, o rango de fechas, lo que permite un análisis detallado por ubicación geográfica.
+
+4. **Diseño de segmentadores y filtros interactivos**:
+   - Para mejorar la **interactividad del dashboard**, se añadieron segmentadores que permiten a los usuarios **personalizar los reportes** y **focalizar el análisis** en los datos más relevantes para ellos.
+   
+   - **Segmentadores clave añadidos**:
+     - **Segmentador de tiempo**: Permite seleccionar el período de tiempo a analizar, lo que da flexibilidad para observar datos históricos y tendencias a largo plazo o realizar análisis detallados sobre períodos cortos.
+     - **Segmentador por ciudad y tienda**: Este segmentador permite a los usuarios filtrar los datos por ciudad y tienda, facilitando el análisis comparativo entre ubicaciones.
+     - **Segmentador por producto y marca**: Los usuarios pueden filtrar los resultados por productos específicos o marcas, lo que permite identificar cuáles productos están generando mayor rendimiento en ventas o cuáles necesitan una estrategia de marketing adicional.
+
+5. **Optimización de la interfaz de usuario**:
+   - Se cuidó cada detalle del diseño para asegurar que el dashboard fuera no solo **visualmente atractivo**, sino también **intuitivo** y fácil de usar. El enfoque fue en **mejorar la experiencia del usuario** (UX), permitiendo que cualquier persona con acceso al informe pudiera interactuar con los datos de manera eficiente, sin necesidad de conocimientos técnicos avanzados.
+   
+   - **Elementos optimizados**:
+     - **Paleta de colores**: Se seleccionó una paleta de colores que hiciera contraste entre las diferentes visualizaciones y que facilitara la interpretación rápida de la información.
+     - **Diseño responsive**: Se aseguró que los gráficos y visualizaciones fueran adaptables y fáciles de visualizar en diferentes tamaños de pantalla, desde computadoras de escritorio hasta dispositivos móviles.
+     - **Botones de navegación**: Se añadieron botones interactivos que permitían navegar de manera eficiente entre las diferentes secciones del dashboard. Esto mejora la fluidez y facilita la experiencia del usuario al recorrer los reportes.
+
+6. **Documentación y presentación del diseño**:
+   - Todo el proceso de diseño fue documentado, y se incluyó una sección en el archivo **[documentacion.md](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/documentacion.md)** del repositorio en **GitHub**, donde se describen los **gráficos**, **medidas** y **segmentadores** utilizados en cada uno de los reportes. La documentación está orientada a permitir que los usuarios finales y futuros desarrolladores puedan comprender fácilmente la estructura y funcionalidad del dashboard.
+   
+   - Además, el equipo se preparó para presentar el dashboard ante los stakeholders de **ComerLogistics**, explicando cómo los diferentes reportes y visualizaciones permiten a la compañía tomar decisiones basadas en datos, mejorando la eficiencia operativa y la gestión del inventario.
+
+### **Importancia de este paso**:
+El diseño de los reportes y gráficos en **Power BI** fue fundamental para transformar los datos procesados en insights valiosos que ayudaran a **ComerLogistics** a **optimizar su cadena de suministro**, mejorar la **gestión de inventarios** y maximizar las **ventas**. Las visualizaciones interactivas proporcionaron una vista integral del negocio, lo que permitió a los tomadores de decisiones explorar los datos en detalle y obtener respuestas rápidas a preguntas críticas.
+
+### **Siguientes pasos**:
+Con el diseño de los reportes completado, el siguiente paso es realizar **pruebas de calidad** para asegurarse de que todos los gráficos interactúen correctamente y que el dashboard esté optimizado para un rendimiento óptimo.
+
+---
+
+[Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+
+_____
