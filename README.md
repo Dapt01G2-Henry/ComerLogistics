@@ -140,7 +140,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * [Diagrama_Entidad_Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion/DIAGRAMA_ProyectoFinal_SQL.drawio.png)
 * [EDA y ETL](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Sprint_1/EDA%20y%20ETL)
 
-⭕[**SPRINT 2**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
+⭕[**SPRINT 2**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/851e474631d6571a3ce385bae872db4bc85fab52/Sprint_2)
 
 * [ComerLogistics Nube Final.pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/ComerLogistics%20Nube%20Final.pbix)
 * [Diagrama de Conecciones en Power Bi Fabric.png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/Diagrama%20de%20Conecciones%20en%20Power%20Bi%20Fabric.png)
