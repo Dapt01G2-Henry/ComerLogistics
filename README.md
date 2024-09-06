@@ -193,11 +193,11 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ⭕ **SPRINT 2**
 
-* [1. Crear el archivo .pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
-* [2. Importar la data a Power BI]()
-* [3. Iniciar el proceso de limpieza y transformación de la data]()
-* [4. Crear las medidas/columnas/relaciones necesarias para el análisis]()
-* [5. Diseñar los reportes y gráficos a usar]()
+* [1. Crear el archivo .pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/ComerLogistics%20Nube%20Final.pbix)
+* [2. Importar la data a Power BI](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2/Diagrama%20de%20Conecciones%20en%20Power%20Bi%20Fabric.png)
+* [3. Iniciar el proceso de limpieza y transformación de la data](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
+* [4. Crear las medidas/columnas/relaciones necesarias para el análisis](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
+* [5. Diseñar los reportes y gráficos a usar](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
 
 <p align='center'>
 
