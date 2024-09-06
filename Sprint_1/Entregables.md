@@ -1,13 +1,13 @@
 # Entregables Sprint 1 
 
-# 1. Crear el repositorio público y compartirlo con el equipo
+## 1. Crear el repositorio público y compartirlo con el equipo
 
-## Descripción:
+### Descripción:
 Uno de los pasos iniciales y fundamentales para la correcta organización del proyecto fue la creación de un repositorio público en GitHub, donde se centralizan todas las actividades de desarrollo y colaboración entre los miembros del equipo. Este repositorio funciona como el espacio de trabajo colaborativo en el que se almacenan todos los recursos del proyecto, incluidos scripts, notebooks, documentación, imágenes, y demás elementos necesarios para el correcto avance del proyecto.
 
 Además, la implementación de control de versiones es esencial en un entorno colaborativo. GitHub permite el seguimiento de los cambios realizados en el código y la documentación, lo que asegura que todos los integrantes del equipo estén trabajando siempre con la versión más actualizada de los archivos y que se pueda retroceder a versiones anteriores en caso de errores.
 
-## Acciones realizadas:
+### Acciones realizadas:
 
 - **Creación del Repositorio en GitHub:**
    Se decidió utilizar GitHub como plataforma para alojar el repositorio debido a su amplia adopción en el ámbito profesional y sus funcionalidades de control de versiones, colaboración en tiempo real, y su integración con herramientas de desarrollo como Visual Studio Code. El repositorio fue creado bajo el nombre **ComerLogistics**, accesible en el siguiente enlace: [**ComerLogistics**](https://github.com/Dapt01G2-Henry/ComerLogistics). Desde este punto, todos los miembros del equipo fueron invitados como colaboradores para asegurar el acceso adecuado.
@@ -42,7 +42,63 @@ Además, la implementación de control de versiones es esencial en un entorno co
 - **Integración con Visual Studio Code:**
    Todo el equipo de desarrollo sincronizó el repositorio con **Visual Studio Code**, lo que facilitó la edición y el manejo de código en tiempo real. Esta integración permitió realizar *commits* directamente desde el entorno de desarrollo y mantener un flujo de trabajo ágil.
 
-## Resultado Final:
+### Resultado Final:
 Gracias a la creación del repositorio público y su adecuada configuración, el equipo ha logrado trabajar de manera colaborativa y eficiente. El control de versiones ha sido clave para asegurar que el desarrollo se realice de manera estructurada, mientras que la organización del repositorio ha permitido un fácil acceso a todos los recursos y archivos necesarios para el desarrollo del proyecto.
+
+_____
+
+## 2. Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio
+
+### Descripción:
+
+En esta etapa inicial del proyecto, fue crucial realizar una identificación clara y precisa de los archivos de datos que se utilizarían para llevar a cabo el análisis y las operaciones de inventario, compras y ventas. La correcta identificación y organización de estos archivos permiten un flujo de trabajo eficiente y minimizan el riesgo de errores durante el desarrollo.
+
+Además, se definió una estructura de carpetas en el repositorio que facilitara la colaboración entre los miembros del equipo, organizando los archivos de forma lógica y asegurando que cada sección del proyecto tuviera su propio espacio dentro del repositorio. Este enfoque garantiza que los desarrolladores puedan trabajar en diferentes aspectos del proyecto sin interferencias, manteniendo una separación clara entre scripts, datos, documentación y otros recursos.
+
+### Acciones realizadas:
+
+1. **Identificación de Archivos del DataSet Original:**
+   El equipo comenzó con una revisión exhaustiva de todos los archivos disponibles en el dataset original proporcionado por la empresa. Estos archivos contenían información crítica sobre compras, ventas, productos y movimientos de inventario. Se realizó un análisis detallado de los archivos, y se procedió a renombrarlos para reflejar su propósito en el contexto del proyecto. Los archivos identificados fueron:
+
+   - **Archivo Original:** `2017PurchasePricesDec` → **Nombre Actual:** `Tabla_Producto`
+   - **Archivo Original:** `BegInvFINAL12312016` → **Nombre Actual:** `Tabla_InventarioInicial`
+   - **Archivo Original:** `EndInvFINAL12312016` → **Nombre Actual:** `Tabla_InventarioFinal`
+   - **Archivo Original:** `InvoicePurchases12312016` → **Nombre Actual:** `Tabla_Compras`
+   - **Archivo Original:** `PurchasesFINAL12312016` → **Nombre Actual:** `Tabla_DetalleCompras`
+   - **Archivo Original:** `SalesFINAL12312016` → **Nombre Actual:** `Tabla_VentasFinal`
+
+2. **Revisión de Estructura y Tipos de Datos:**
+   Tras la identificación de los archivos, se realizó una revisión exhaustiva de su estructura. El objetivo era asegurar que los tipos de datos fueran correctos y que las columnas estuvieran bien definidas. Se validaron aspectos como:
+
+   - **Fechas:** Se revisaron los formatos de fecha para asegurarse de que fueran uniformes en todos los archivos.
+   - **Claves Primarias y Foráneas:** Se identificaron los campos que servirían como claves primarias y foráneas para vincular las tablas entre sí.
+   - **Consistencia de las Unidades:** Se verificó que las unidades de medida (como las cantidades de productos en inventario o vendidas) fueran consistentes en todos los archivos.
+
+3. **Transformación de los Datos:**
+   Se realizó un proceso de transformación para adecuar los datos a las necesidades del proyecto. Este proceso incluyó la normalización de los nombres de las columnas y la conversión de tipos de datos para facilitar su análisis posterior. Los detalles de esta transformación se documentaron en el notebook **EDA y ETL.ipynb**, donde cada archivo fue procesado, limpiado y preparado para ser cargado en la base de datos.
+
+4. **Estructura de Carpetas en el Repositorio:**
+   Una vez identificados y transformados los archivos, se definió una estructura de carpetas en el repositorio para organizar los diferentes aspectos del proyecto. La estructura establecida fue la siguiente:
+
+   - **Sprint_1:**
+     - **Conexion_SQL_Python:** Contiene scripts para la conexión entre SQL y Python.
+     - **DataSet:** Almacena los archivos de datos originales y procesados.
+     - **EDA y ETL:** Contiene notebooks para análisis exploratorio de datos (EDA) y transformación (ETL).
+     - **Web_Scraping:** Scripts para obtener datos adicionales mediante scraping.
+   
+   - **DiagramaEntidadRelacion:** Contiene diagramas ER para las relaciones entre las tablas.
+     - [Ver carpeta de Diagrama ER](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion).
+
+5. **Documentación de Archivos y Procesos:**
+   A medida que se iban identificando y procesando los archivos, se documentaron los pasos en el archivo `Documentación.md`. Este archivo contiene un registro detallado de cada paso realizado durante el desarrollo del proyecto.
+
+### Resultado Final:
+
+La identificación precisa de los archivos y la estructuración lógica de las carpetas en el repositorio han sido fundamentales para garantizar la fluidez del proyecto. Gracias a esta organización, el equipo pudo realizar un análisis profundo y coherente de los datos.
+
+### Enlaces Relacionados:
+- [Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+- [Carpeta DataSet en el Repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/DataSet)
+- [EDA y ETL Notebooks](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Sprint_1/EDA%20y%20ETL)
 
 _____
