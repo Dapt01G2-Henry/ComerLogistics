@@ -180,18 +180,18 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ⭕ **SPRINT 1**
 
-* [Crear el repositorio público y compartirlo con el equipo](https://github.com/Dapt01G2-Henry/ComerLogistics)
-* [Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1)
-* [Creación de la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
-* [Identificar las entidades/tablas a usar en la BD](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/DataSet/DataSets%20en%20Drive.txt)
-* [Crear las tablas y objetos SQL necesarios](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
-* [Crear el flujo que importe los datos a la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
-* [Validar que todos tengan acceso a dicha base de datos y que puedan extraer datos sin problemas](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
-* [Crear el método de automatización de ingesta de datos nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb)
+* [1. Crear el repositorio público y compartirlo con el equipo](https://github.com/Dapt01G2-Henry/ComerLogistics)
+* [2. Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1)
+* [3. Creación de la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [4. Identificar las entidades/tablas a usar en la BD](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/DataSet/DataSets%20en%20Drive.txt)
+* [5. Crear las tablas y objetos SQL necesarios](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [6. Crear el flujo que importe los datos a la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [7. Validar que todos tengan acceso a dicha base de datos y que puedan extraer datos sin problemas](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [8. Crear el método de automatización de ingesta de datos nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb)
 
 ⭕ **SPRINT 2**
 
-* [*1. Crear el archivo .pbix*](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
+* [1. Crear el archivo .pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
 * [Crear el repositorio público y compartirlo con el equipo](https://github.com/Dapt01G2-Henry/ComerLogistics)
 * [Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1)
 * [Creación de la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
