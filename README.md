@@ -176,6 +176,10 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ![Google Meet](https://img.shields.io/badge/Google%20Meet-00897B?style=for-the-badge&logo=google-meet&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
+## ✅ Entregables:
+
+
+
 <p align='center'>
 
 </p>
