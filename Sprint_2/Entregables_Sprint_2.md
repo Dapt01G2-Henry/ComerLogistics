@@ -327,3 +327,77 @@ Con el diseño de los reportes completado, el siguiente paso es realizar **prueb
 [Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
 
 _____
+
+## 6. Etapa de Pruebas de Calidad del Reporte
+
+El proceso de pruebas de calidad es un paso crucial para asegurar que el informe desarrollado en **Power BI** cumpla con los requisitos funcionales, técnicos y visuales establecidos. Este paso no solo valida que los cálculos y visualizaciones sean correctos, sino que también garantiza que la experiencia del usuario sea óptima, evitando problemas de rendimiento y asegurando la coherencia de la información.
+
+### **Objetivo del paso**:
+El objetivo de esta etapa es asegurar que todas las interacciones y visualizaciones en el **dashboard** de **ComerLogistics** funcionen de manera fluida, sin errores en las relaciones de las tablas ni en los cálculos. Además, se busca optimizar el rendimiento del informe, revisando las consultas y asegurándose de que los tiempos de carga sean mínimos. Finalmente, se revisa la precisión y coherencia de los datos presentados, garantizando que cada visualización responda correctamente a las consultas realizadas por los usuarios.
+
+### **Acciones Realizadas:**
+
+1. **Validación de Cálculos y Medidas DAX**:
+   - Se revisaron **todas las medidas y columnas calculadas** para garantizar que los resultados presentados sean correctos y coherentes con los datos originales. 
+   
+   - **Detalles de la validación**:
+     - Las **medidas clave** como *Total Unidades Iniciales*, *Total Unidades Finales*, *Total Compras* y *Total Ventas* fueron comparadas contra los datos originales de los datasets para verificar que las fórmulas en DAX fueran precisas.
+     - También se revisaron las **columnas calculadas** que se habían creado para análisis adicionales, como la **Unidad Disponible** por producto y tienda, asegurando que se calcularan correctamente para cada período y categoría.
+
+2. **Revisión de Relaciones entre Tablas**:
+   - Se revisaron las **relaciones entre las tablas** (Inventario, Compras, Ventas, etc.) dentro del modelo de datos de **Power BI**. Este paso fue esencial para asegurar que los reportes y gráficos reflejaran la información correcta al realizar filtros o cruzar datos de diferentes fuentes.
+   
+   - **Revisión detallada**:
+     - Se comprobó que las **relaciones uno-a-muchos** estuvieran configuradas correctamente entre las diferentes tablas.
+     - También se verificaron las **claves foráneas**, como *MarcaID*, *Tienda* y *Fecha*, para confirmar que las tablas estuvieran conectadas de manera eficiente y precisa.
+
+3. **Pruebas de Interacción de Filtros**:
+   - Uno de los aspectos más importantes en **Power BI** es la interactividad de los gráficos y reportes. Durante esta etapa se revisaron todos los **segmentadores** y **filtros** interactivos que se implementaron en el dashboard. Se verificó que los filtros afectaran correctamente las visualizaciones, permitiendo a los usuarios obtener insights precisos al aplicar diferentes criterios de búsqueda.
+   
+   - **Detalles de las pruebas**:
+     - Se probaron los **segmentadores de fecha**, asegurando que los gráficos respondieran de manera correcta a los diferentes rangos de tiempo seleccionados por el usuario.
+     - También se realizaron pruebas con los **filtros por ciudad, tienda y producto**, confirmando que las visualizaciones respondieran de manera precisa al ser filtradas por estas categorías.
+   
+4. **Optimización del Rendimiento del Informe**:
+   - Un aspecto clave de la experiencia del usuario es el tiempo de respuesta del informe. Para asegurar que el dashboard cargue de manera eficiente, se llevaron a cabo pruebas de rendimiento y se optimizaron las consultas y relaciones entre tablas para minimizar el tiempo de espera.
+   
+   - **Acciones de optimización**:
+     - Se revisaron todas las **consultas de datos** para garantizar que fueran lo más eficientes posible, eliminando pasos innecesarios en el proceso de transformación de datos.
+     - Se optimizaron las **relaciones** entre tablas, simplificando algunas relaciones donde era posible para reducir la cantidad de procesamiento necesario.
+     - Se revisó la configuración de **carga incremental de datos**, lo que permite actualizar solo los datos nuevos en lugar de recargar todo el conjunto de datos, mejorando el tiempo de actualización del informe.
+
+5. **Verificación de la Precisión de Datos en Gráficos**:
+   - Se realizó una revisión exhaustiva de los gráficos y tablas dinámicas para asegurar que los datos mostrados fueran precisos y estuvieran alineados con los resultados esperados. Durante este paso, se hicieron pruebas para detectar posibles inconsistencias en las cifras presentadas en los gráficos.
+   
+   - **Validación de datos**:
+     - Se compararon los valores presentados en los gráficos con los valores reales de los datasets importados, confirmando que los cálculos en **Power BI** coincidan con los datos originales.
+     - También se revisaron las **visualizaciones geográficas**, como el mapa interactivo, asegurando que las coordenadas de cada tienda fueran precisas y que los valores de inventario por ubicación fueran correctos.
+
+6. **Revisión Visual y de Experiencia de Usuario (UX)**:
+   - Se realizaron revisiones detalladas para mejorar la experiencia del usuario final, garantizando que el dashboard fuera **intuitivo**, **fácil de usar** y estéticamente agradable.
+   
+   - **Mejoras en el diseño**:
+     - Se ajustaron los tamaños de los gráficos y tablas para asegurarse de que los datos se visualicen de manera clara en diferentes tamaños de pantalla y dispositivos.
+     - Se realizó una optimización de la **paleta de colores** y el **diseño visual**, asegurando que la visualización de las métricas fuera clara y que los usuarios pudieran interpretar rápidamente los resultados.
+     - Se probaron las **navegaciones interactivas** y botones añadidos para facilitar la navegación entre diferentes secciones del dashboard.
+
+7. **Documentación y Feedback**:
+   - Se documentaron todos los cambios y mejoras realizadas en esta fase de pruebas. Además, se compartió el dashboard con el equipo para obtener feedback adicional y realizar ajustes finales antes de la entrega al cliente.
+   
+   - **Documentación**:
+     - Todos los pasos de validación y optimización fueron registrados en el archivo **[documentacion.md](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/documentacion.md)** del repositorio, detallando los cambios realizados en los cálculos y visualizaciones.
+     - También se creó un plan de pruebas detallado que se utilizó para verificar cada una de las funcionalidades interactivas del dashboard, lo que asegura que cualquier error encontrado pueda ser resuelto de manera eficiente.
+
+### **Importancia de este paso**:
+La **etapa de pruebas de calidad** es esencial para garantizar que el informe final entregue resultados precisos y confiables. La validación de los cálculos y la interacción de los filtros son fundamentales para asegurar que el dashboard sea una herramienta útil y efectiva para la toma de decisiones en **ComerLogistics**. Además, la optimización del rendimiento y la experiencia de usuario garantizan que el equipo de **ComerLogistics** pueda utilizar el dashboard de manera eficiente y sin problemas técnicos.
+
+### **Siguientes pasos**:
+- Ajustar cualquier detalle visual o técnico identificado durante las pruebas.
+- Preparar el dashboard para su presentación final al cliente y al equipo de **ComerLogistics**.
+- Realizar un seguimiento continuo del rendimiento y actualizar el informe según las necesidades futuras del cliente.
+
+---
+
+[Repositorio ComerLogistics en GitHub](https://github.com/Dapt01G2-Henry/ComerLogistics)
+
+_____
