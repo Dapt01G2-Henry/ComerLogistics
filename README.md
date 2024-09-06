@@ -178,6 +178,8 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ## ✅ Entregables:
 
+⭕ **SPRINT 1**
+
 
 
 <p align='center'>
