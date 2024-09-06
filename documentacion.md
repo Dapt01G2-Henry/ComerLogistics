@@ -125,7 +125,9 @@ Los diagramas ER en la carpeta **DiagramaEntidadRelacion** muestran claramente c
 
 ### 7.3 Interactividad y Análisis
 **Acción Realizada:** Se añadieron funcionalidades interactivas que permiten desglosar los datos hasta el nivel más detallado, facilitando a los usuarios realizar análisis en tiempo real y tomar decisiones basadas en datos. Estas funcionalidades ayudan a los responsables de la gestión del inventario a visualizar patrones y tendencias de compra.
+
 ---
+
 ## 8. Conclusión y Próximos Pasos
 
 ### 8.1 Conclusión
