@@ -154,3 +154,5 @@ A continuación, se describen los próximos pasos recomendados para seguir optim
 - **Documentación Detallada del Proyecto:** Mantener actualizada la documentación del proyecto, detallando cada fase del desarrollo y asegurando que toda la información sobre el flujo de trabajo esté disponible para futuras referencias.
 
 - **Capacitación de Usuarios:** Realizar sesiones de capacitación para los usuarios finales del dashboard, ayudándoles a comprender las funcionalidades disponibles y cómo interpretar los datos para tomar decisiones efectivas.
+
+_____
