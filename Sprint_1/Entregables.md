@@ -264,3 +264,121 @@ Una vez identificadas las entidades principales y las tablas necesarias, el sigu
 
 _____
 
+## Punto 6: Crear el flujo que importe los datos a la base de datos
+
+**Descripción:**
+
+El proceso de creación del flujo que permita la importación de datos a la base de datos fue una de las etapas clave para garantizar la fiabilidad y la precisión en la gestión de la información dentro de **ComerLogistics**. Este flujo de datos fue diseñado para cargar de manera eficiente las compras, ventas, y los movimientos de inventario en el sistema, permitiendo que la empresa tenga acceso a datos en tiempo real. El enfoque fue asegurar que los datos se procesaran, transformaran y cargaran en la base de datos con la máxima integridad y sin pérdida de información.
+
+### Acciones Realizadas:
+
+1. **Desarrollo del Proceso de Ingesta de Datos (ETL):**
+   El flujo de ingesta de datos fue diseñado como un **proceso ETL (Extracción, Transformación y Carga)**. La idea detrás de este proceso es simple pero poderosa: extraer los datos de los archivos originales, transformarlos para que sigan un formato estándar y luego cargarlos en la base de datos SQL Server. Este proceso se desarrolló utilizando Python y las bibliotecas **Pandas** y **SQLAlchemy**, asegurando flexibilidad y escalabilidad.
+
+2. **Extracción de los Datos:**
+   Se comenzaron a extraer datos de múltiples fuentes (principalmente archivos CSV) correspondientes a inventarios iniciales, ventas y compras. Esta fase de extracción implicó la lectura de archivos y la captura de datos en bruto que luego serían procesados y preparados para su integración en la base de datos.
+
+   - **Tabla_Compras:** Contiene los registros de las compras realizadas, especificando la fecha, tienda y proveedor.
+   - **Tabla_DetalleCompras:** Detalla los productos comprados, las cantidades y los precios.
+   - **Tabla_InventarioInicial y Tabla_InventarioFinal:** Almacenan los niveles de inventario en el inicio y fin del periodo analizado.
+   - **Tabla_VentasFinal:** Contiene las ventas por tienda y producto, especificando cantidades vendidas y montos.
+
+3. **Transformación de los Datos:**
+   Durante la fase de transformación, se llevaron a cabo las siguientes acciones:
+   - **Normalización de datos:** Se garantizaron tipos de datos consistentes en todas las tablas. Por ejemplo, se uniformizaron formatos de fecha, tipos de columnas numéricas y cadenas de texto.
+   - **Limpieza de datos:** Se manejaron los valores nulos, asegurando que no existieran inconsistencias en los datos que pudieran afectar los análisis posteriores. Se eliminaron filas duplicadas y se completaron valores faltantes utilizando métodos como la imputación de datos.
+   - **Cálculo de métricas adicionales:** Se implementaron cálculos adicionales, como la suma de cantidades compradas y vendidas, lo que facilitó la integración y posterior análisis de los datos.
+   - **Relaciones de claves:** Se aseguraron las relaciones entre las tablas, respetando la integridad referencial en todas las entidades.
+
+4. **Carga de Datos a la Base de Datos:**
+   Una vez los datos fueron transformados, se procedió a la carga en la base de datos SQL Server. Este proceso de carga fue automatizado a través de scripts en Python que establecieron la conexión con la base de datos utilizando **SQLAlchemy** y **PyODBC**. Los datos se insertaron en las tablas correspondientes asegurando que los índices y claves foráneas estuvieran correctamente configurados para optimizar las consultas y mantener la integridad de los datos.
+
+   - **Automatización del proceso de carga:** Se utilizó un script de Python, el cual ejecuta el proceso de carga cada vez que se actualizan los datos o se reciben nuevos registros. Esto garantiza que la base de datos esté siempre actualizada y los informes generados en Power BI reflejen la información más reciente.
+
+5. **Validación del Proceso de Carga:**
+   Después de cargar los datos, se realizaron pruebas de validación para verificar que la información se había ingresado correctamente. Se utilizaron consultas SQL para verificar que los datos fueran precisos y que no se hubiera producido pérdida de información o duplicación de registros.
+
+6. **Documentación del Flujo de Importación de Datos:**
+   Todo el proceso fue documentado en el notebook **Carga_Datos_Finales_a_SQL.ipynb**, el cual incluye todos los scripts utilizados para la conexión a la base de datos, la transformación y la carga de los datos. La documentación también incluye ejemplos prácticos de cómo se realizó la validación de la integridad de los datos.
+
+### Desafíos y Soluciones:
+
+1. **Grandes volúmenes de datos:** Uno de los principales retos fue manejar grandes volúmenes de datos sin afectar el rendimiento. Se implementaron técnicas como el procesamiento por lotes, lo cual permitió cargar los datos en pequeñas partes para no sobrecargar la memoria o los recursos del servidor.
+2. **Integridad de los datos:** Otro desafío fue garantizar que no hubiera pérdida de datos durante la transformación y la carga. Esto se logró mediante la validación en cada paso del proceso y el uso de claves primarias y foráneas bien definidas para mantener la coherencia entre las tablas.
+
+### Enlaces Relacionados:
+- [Carga_Datos_Finales_a_SQL.ipynb](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+
+_____
+
+## 7. Validar que todos tengan acceso a dicha base de datos y que puedan extraer datos sin problemas
+
+### Acción Realizada:
+
+Una vez establecida la base de datos SQL Server y cargados todos los datos, el siguiente paso clave fue garantizar que todos los miembros del equipo tuvieran acceso sin problemas a dicha base de datos y pudieran extraer los datos requeridos para el análisis en tiempo real.
+
+Se realizaron pruebas de acceso y conectividad con cada miembro del equipo para verificar que todos pudieran interactuar con la base de datos a través de sus propios entornos locales y herramientas. Estas pruebas incluyeron la verificación de los permisos de lectura y escritura, asegurándose de que cada miembro pudiera realizar consultas SQL, extraer datasets, y ejecutar scripts para alimentar el análisis en Python y Power BI sin interrupciones.
+
+Se generaron credenciales personalizadas para cada miembro del equipo, otorgando los permisos necesarios para asegurar que cada uno tuviera los privilegios adecuados para trabajar sobre la base de datos sin comprometer la integridad de la misma.
+
+### Pruebas Realizadas:
+1. **Prueba de Conectividad**: Se verificó que todos los usuarios pudieran conectarse a la base de datos COMERLOGISTICS a través de la VPN establecida, garantizando un acceso seguro.
+2. **Pruebas de Consulta y Extracción de Datos**: Se probaron consultas SQL básicas y avanzadas, confirmando que todos los usuarios pudieran acceder a los datos requeridos, extraer tablas completas o subconjuntos específicos de información.
+3. **Pruebas de Escritura (con permisos restringidos)**: A los usuarios con permisos de escritura se les concedió la capacidad de cargar nuevos datos para asegurar que la base de datos se mantuviera actualizada sin duplicaciones ni errores de carga.
+
+El equipo de **ComerLogistics** utilizó las siguientes herramientas y scripts para verificar el acceso a la base de datos:
+- Conexión SQL/Python para ejecutar scripts que extraían datos de la base de datos a Python [Enlace a Script de Conexión SQL/Python](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main/Sprint_1/Conexion_SQL_Python)
+- SQL Server Management Studio para acceder y visualizar los datos directamente desde SQL Server.
+
+**Repositorio Relacionado:**
+- [Validación de Acceso a la Base de Datos en el Repositorio de ComerLogistics](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/main)
+
+**Conclusión**:
+La validación del acceso a la base de datos se completó con éxito. Todos los miembros del equipo pueden ahora acceder, extraer y manipular los datos necesarios para el análisis, lo que asegura un flujo continuo de trabajo en el proceso de análisis de datos y visualización en Power BI.
+
+_____
+
+## 8. Crear el método de automatización de ingesta de datos nuevos
+
+### Acción Realizada:
+
+El equipo de **ComerLogistics** implementó un método automatizado para la ingesta de datos nuevos que garantiza la actualización constante de la base de datos sin intervención manual. Este proceso es clave para mantener la integridad y actualidad de los datos en todo momento, asegurando que el sistema refleje la información más reciente, tanto en el análisis de inventarios como en las métricas de ventas y compras.
+
+El flujo de automatización se estructuró en varias fases críticas, todas documentadas y validadas:
+
+1. **Desarrollo del Script en Python**:
+   Se diseñó y desarrolló un script en Python utilizando las bibliotecas `pandas` y `sqlalchemy`, las cuales permiten gestionar la conexión con la base de datos SQL Server. Este script se encargó de automatizar la ingesta de datos incrementales, de tal forma que solo los registros nuevos sean cargados en la base de datos.
+
+   El proceso comenzó con la definición de una lista de archivos (por ejemplo, `Tabla_Compras.csv`, `Tabla_Ventas.csv`, etc.), la cual el script analiza cada vez que se ejecuta. Para cada archivo, el sistema verifica si los registros ya existen en la base de datos, evitando duplicados y sobrecargas innecesarias. Si se encuentran nuevos registros, estos son agregados a las tablas correspondientes en SQL Server.
+
+   El código relevante para la ingesta incremental puede revisarse en este [notebook de Automatización de Datos Nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb).
+
+2. **Configuración de la Ejecución Automática**:
+   Para garantizar que el proceso de ingesta de datos nuevos se ejecute sin intervención manual, se configuró un archivo por lotes `.bat` en Windows que ejecuta el script de Python de manera periódica. Esta tarea programada se configuró para ejecutarse semanalmente a una hora específica mediante el **Task Scheduler** de Windows. Esto permite que el sistema sea autosuficiente, cargando nuevos datos de manera regular sin que un usuario tenga que ejecutar el proceso manualmente.
+
+3. **Pruebas y Validación del Proceso**:
+   Se realizaron pruebas exhaustivas para garantizar que el sistema funcione correctamente y que solo los registros nuevos sean cargados. Estas pruebas incluyeron la inserción de datos simulados y reales para validar que no hubiera duplicaciones ni errores en la base de datos. También se monitoreó el rendimiento del sistema para asegurar que la ingesta se realizara de manera eficiente, sin comprometer el tiempo de respuesta del sistema.
+
+   Las pruebas se documentaron en el [notebook de Automatización de Datos Nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb), donde se incluyó un registro de los resultados obtenidos en cada ejecución del script.
+
+4. **Monitorización Continua**:
+   Además de las pruebas iniciales, se estableció un mecanismo de monitorización continua para detectar cualquier fallo en el proceso de ingesta. Esta monitorización incluye la captura de logs de cada ejecución del script, lo que permite al equipo de desarrollo verificar rápidamente si hubo problemas durante la ejecución de una tarea programada.
+
+   En caso de errores, el sistema está configurado para enviar alertas automáticas al equipo, lo que permite una rápida intervención y resolución de problemas.
+
+### Herramientas Utilizadas:
+- **Python**: Para el desarrollo del script automatizado.
+- **Pandas y SQLAlchemy**: Para la manipulación de datos y la conexión con la base de datos SQL Server.
+- **Task Scheduler de Windows**: Para la automatización de la ejecución del script.
+- **SQL Server**: Base de datos en la que se almacenan los datos extraídos.
+
+### Resultados:
+Con la automatización de la ingesta de datos nuevos, se ha conseguido un sistema eficiente, que se actualiza periódicamente y mantiene la base de datos sincronizada con las operaciones diarias de **ComerLogistics**. Esto permite a los analistas y tomadores de decisiones acceder siempre a información actualizada, mejorando así la calidad y rapidez en las decisiones estratégicas.
+
+### Conclusión:
+El método de automatización de ingesta de datos nuevos implementado para **ComerLogistics** ha demostrado ser robusto, escalable y eficiente, garantizando que el sistema de análisis de datos funcione con la información más actual sin necesidad de intervención manual. Este enfoque permitirá a la compañía continuar con la expansión de su sistema de información a medida que crece su negocio, sin sacrificar la calidad ni la integridad de los datos.
+
+### Enlaces Relacionados:
+- [Notebook de Automatización de Datos Nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb)
+
+_____
