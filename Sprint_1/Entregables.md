@@ -44,3 +44,5 @@ Además, la implementación de control de versiones es esencial en un entorno co
 
 ## Resultado Final:
 Gracias a la creación del repositorio público y su adecuada configuración, el equipo ha logrado trabajar de manera colaborativa y eficiente. El control de versiones ha sido clave para asegurar que el desarrollo se realice de manera estructurada, mientras que la organización del repositorio ha permitido un fácil acceso a todos los recursos y archivos necesarios para el desarrollo del proyecto.
+
+_____
