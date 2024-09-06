@@ -192,10 +192,10 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 ⭕ **SPRINT 2**
 
 * [1. Crear el archivo .pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_2/ComerLogistics.pbix)
-* [Crear el repositorio público y compartirlo con el equipo](https://github.com/Dapt01G2-Henry/ComerLogistics)
-* [Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1)
-* [Creación de la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
-* [Identificar las entidades/tablas a usar en la BD](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/
+* [2. Importar la data a Power BI]()
+* [3. Iniciar el proceso de limpieza y transformación de la data]()
+* [4. Crear las medidas/columnas/relaciones necesarias para el análisis]()
+* [5. Diseñar los reportes y gráficos a usar]()
 
 <p align='center'>
 
