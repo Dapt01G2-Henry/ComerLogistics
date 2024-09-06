@@ -184,11 +184,12 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * [Identificar los archivos a usar y armar la estructura de carpetas a usar en el repositorio](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1)
 * [Creación de la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
 * [Identificar las entidades/tablas a usar en la BD](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/main/Sprint_1/DataSet/DataSets%20en%20Drive.txt)
-* [Crear las tablas y objetos SQL necesarios](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python)
-* [DataSet](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/DataSet)
-* [Diagrama_Entidad_Relacion](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/DiagramaEntidadRelacion/DIAGRAMA_ProyectoFinal_SQL.drawio.png)
-* [EDA y ETL](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Sprint_1/EDA%20y%20ETL)
+* [Crear las tablas y objetos SQL necesarios](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [Crear el flujo que importe los datos a la base de datos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [Validar que todos tengan acceso a dicha base de datos y que puedan extraer datos sin problemas](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/Carga_Datos_Finales_a_SQL.ipynb)
+* [Crear el método de automatización de ingesta de datos nuevos](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/be299b2f53546f7104b273e4f546a02a9e0b3559/Sprint_1/Conexion_SQL_Python/AutomatizacionDatosNuevos.ipynb)
 
+⭕ **SPRINT 2**
 
 <p align='center'>
 
