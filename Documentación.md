@@ -156,3 +156,71 @@ A continuación, se describen los próximos pasos recomendados para seguir optim
 - **Capacitación de Usuarios:** Realizar sesiones de capacitación para los usuarios finales del dashboard, ayudándoles a comprender las funcionalidades disponibles y cómo interpretar los datos para tomar decisiones efectivas.
 
 _____
+
+# Informe del Sprint 2 - ComerLogistics
+
+
+## Objetivo
+El objetivo del **Sprint 2** en el proyecto **ComerLogistics** fue la creación y desarrollo de un archivo `.pbix` en Power BI que permitiera analizar y visualizar datos de inventarios, ventas, compras y productos. El enfoque principal incluyó la importación de datos, limpieza y transformación, la creación de relaciones entre las tablas, la definición de medidas personalizadas utilizando DAX y el diseño de reportes visuales que ofrecieran una vista clara de las métricas clave del negocio.
+
+El resultado final es un panel de control interactivo que proporciona a los usuarios una comprensión profunda de las operaciones comerciales, lo que facilita la toma de decisiones estratégicas.
+
+## 1. Creación del archivo .pbix
+El archivo central del proyecto fue creado en **Power BI Desktop** y almacenado como **ComerLogistics.pbix**. Este archivo contendrá todas las fuentes de datos, transformaciones y visualizaciones desarrolladas a lo largo del proyecto.
+
+### Especificaciones Técnicas:
+- **Formato:** .pbix
+- **Software utilizado:** Power BI Desktop
+- **Versión de Power BI Desktop:** [Especificar la versión]
+- **Estructura de carpetas:** El archivo fue almacenado en el repositorio del equipo en **GitHub**, siguiendo una estructura ordenada para facilitar el acceso.
+  - Carpeta del sprint: `/Sprint_2/`
+  - Nombre del archivo: **ComerLogistics.pbix**
+
+Este archivo actuará como el contenedor principal de todos los datos y análisis a lo largo del desarrollo del proyecto.
+
+## 2. Importación de los datos
+Los datos fueron importados a Power BI desde archivos **CSV**. Se seleccionaron seis fuentes de datos críticas para el análisis del inventario y las ventas de la empresa.
+
+### Archivos importados:
+- **BegInvFINAL12312016.csv**: Datos de inventario inicial.
+- **EndInvFINAL12312016.csv**: Datos de inventario final.
+- **PurchasesFINAL12312016.csv**: Datos de compras.
+- **SalesFINAL12312016.csv**: Datos de ventas.
+- **2017PurchasePricesDec.csv**: Precios de los productos en el inventario.
+- **InvoicePurchases12312016.csv**: Datos de facturación de compras.
+
+### Especificaciones del proceso de importación:
+- Se utilizó la función **Obtener datos** en Power BI.
+- Todos los archivos fueron revisados antes de la importación para asegurar que estuvieran completos y en el formato adecuado.
+- Los archivos fueron cargados como tablas independientes, cada una con su propio conjunto de campos.
+- Se verificó que no hubiera conflictos de tipos de datos ni problemas de formato, asegurando la integridad de los datos desde la importación.
+
+## 3. Limpieza y transformación de datos
+Una vez importados los datos, se procedió a realizar un proceso exhaustivo de limpieza y transformación. Esto es esencial para garantizar la calidad de los datos y facilitar un análisis preciso.
+
+### Proceso de transformación:
+- **Revisión de tipos de datos:** Cada columna fue revisada para asegurarse de que tuviera el tipo de datos correcto (números enteros, decimales, fechas, texto, etc.).
+- **Tratamiento de valores nulos:** Se identificaron y corrigieron los valores faltantes o nulos. Por ejemplo, se observó que algunas columnas de ciudades tenían datos faltantes en el inventario final, por lo que se implementaron reglas para manejar dichos valores.
+- **Renombrado de columnas:** Las columnas fueron renombradas según la convención acordada en el proyecto. Ejemplo:
+  - `Brand` -> `MarcaID`
+  - `SalesDollars` -> `Venta_Total`
+- **Eliminación de duplicados:** Se eliminaron filas duplicadas en los archivos que lo requerían, específicamente en las tablas de compras y ventas.
+- **Creación de columnas calculadas:** Se añadieron columnas adicionales donde fue necesario para facilitar análisis posteriores.
+
+### Detalle de cambios realizados:
+- **Inventario inicial:** Se ajustaron las descripciones de productos y se verificaron las fechas para asegurar que correspondieran con el período bajo análisis.
+- **Compras y ventas:** Se unificaron los formatos de las fechas y se corrigieron discrepancias en la nomenclatura de productos.
+
+## 4. Creación de relaciones, medidas y columnas calculadas
+El siguiente paso fue establecer las relaciones entre las tablas para permitir un análisis cruzado, y se crearon medidas personalizadas mediante **DAX** para cálculos avanzados.
+
+### Relaciones establecidas:
+- La tabla **SalesFINAL12312016.csv** (Ventas) se relacionó con la tabla **BegInvFINAL12312016.csv** (Inventario inicial) y la tabla **EndInvFINAL12312016.csv** (Inventario final) a través de las columnas `MarcaID` y `Tienda`.
+- La tabla **PurchasesFINAL12312016.csv** (Compras) también se conectó a las tablas de inventario y ventas para permitir un análisis holístico del flujo de inventario.
+
+### Medidas creadas con DAX:
+- **TotalVentas:** Suma de las ventas totales de cada tienda utilizando la columna `Venta_Total` de la tabla de ventas.
+  ```DAX
+  TotalVentas = SUM(SalesFINAL[Venta_Total])
+
+_____
