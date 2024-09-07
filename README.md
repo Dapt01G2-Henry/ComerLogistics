@@ -199,6 +199,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 * [3. Iniciar el proceso de limpieza y transformación de la data](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
 * [4. Crear las medidas/columnas/relaciones necesarias para el análisis](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
 * [5. Diseñar los reportes y gráficos a usar](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/33df96f6df1cb266d92a6923c46a7e5a8cf52465/Sprint_2)
+* [6. Documentación](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/927e887d4fabbb32861abfd86496b4e7cd4ddfe1/Documentaci%C3%B3n.md)
 
 <p align='center'>
 
