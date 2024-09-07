@@ -142,6 +142,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
 
 ⭕[**SPRINT 2**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/851e474631d6571a3ce385bae872db4bc85fab52/Sprint_2)
 
+  ⭕[**Imagenes**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/bbe618722ce1c76d15b2ef922e327a36f0e3e63d/Sprint_2/DashBoard) 
 * [ComerLogistics Nube Final.pbix](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/ComerLogistics%20Nube%20Final.pbix)
 * [Diagrama de Conecciones en Power Bi Fabric.png](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/Diagrama%20de%20Conecciones%20en%20Power%20Bi%20Fabric.png)
 * [Entregables_Sprint_2.md](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/c7438fa67e0c93d1d36aa60c3177746d52d67c8a/Sprint_2/Entregables_Sprint_2.md)
@@ -151,7 +152,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
   
 ⭕[**Imagenes**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Imagenes) 
 
-⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/8a0e10d11fd9cde6bcd3fe49bd0fd76b4d85b590/README.md)
+⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/bfdc748e28c7ded83b7066abe6fc5772cf53329b/README.md)
 
 ⭕[**Documentación.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/1043f0c8e5aa69bb33307b19d8a4ebc7fd90f29c/Documentaci%C3%B3n.md)
 
