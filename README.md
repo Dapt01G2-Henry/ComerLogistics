@@ -152,7 +152,7 @@ Las soluciones implementadas no solo mejoraran la eficiencia en la gestión de i
   
 ⭕[**Imagenes**](https://github.com/Dapt01G2-Henry/ComerLogistics/tree/4af09eba8ed8b2a3f9a07d60f767dfc9b4cbb47d/Imagenes) 
 
-⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/8a0e10d11fd9cde6bcd3fe49bd0fd76b4d85b590/README.md)
+⭕[**README.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/bfdc748e28c7ded83b7066abe6fc5772cf53329b/README.md)
 
 ⭕[**Documentación.md**](https://github.com/Dapt01G2-Henry/ComerLogistics/blob/1043f0c8e5aa69bb33307b19d8a4ebc7fd90f29c/Documentaci%C3%B3n.md)
 
